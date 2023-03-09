@@ -1,25 +1,25 @@
-baseURL               = "https://navi.xzgljiang.com/"
+baseURL               = "https://navi.xzgljiang.com/document"
 languageCode          = "zh-CN"
-title                 = "JiAngの导航站"
+title                 = "资料文档の导航站"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
 hasCJKLanguage        = true
-publishDir            = "publicBT"					# 站点静态文件保存目录
+publishDir            = "public"					# 站点静态文件保存目录
 
 
 [params]
     author        = "shenweiyan"
     description   = "xzgl 导航小站"
     siteurl       = "./"
-    upload        = "https://nav.xzgl.site/document/"  # 左侧导航栏的"网站提交"
+    upload        = "https://nav.xzgl.site/"  # 左侧导航栏的"网站提交"
     about         = "https://shumlab.com/cookbook/webstack-hugo"	# 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
     enablePreLoad = true					# 网站完全打开前预加载动画
     textPreLoad   = ">>> xzgl Loading >>>"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
     expandSidebar = false					# 默认展开左侧边导航栏
-    logosPath     = "assets/images/logos"			# 网站每个导航地址logo存放地址
-    defaultLogo   = "assets/images/default_logo.png"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+    logosPath     = "assets/images/"			# 网站每个导航地址logo存放地址
+    defaultLogo   = "assets/images/cat.png"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
     nightMode     = false					# 默认站点为深色(夜间)模式
 	
 [params.seo]    
@@ -30,7 +30,7 @@ publishDir            = "publicBT"					# 站点静态文件保存目录
     key = "085791e805a24491b43b06cf58ab31e7"
 
 [params.images]
-    favicon           = "assets/images/cat.png"
+    favicon           = "assets/images/cat.jpg"
     searchImageL      = "assets/images/bg-light.jpg"		# 搜索部分浅色背景图
     searchImageD      = "assets/images/bg-dark.jpg"		# 搜索部分深色背景图
     logoExpandLight   = "assets/images/bt8-expand.png"

@@ -8,7 +8,7 @@
 
 - item: Linux命令搜索
   icon: fab fa-linux
-  link: https://linux.xzgl.site/ 
+  link: https://linux.xzgl.site/   
   
 - item: 其他
   icon: fa fa-cat 
@@ -19,6 +19,4 @@
     - name: 收库123
       url: https://shouku123.com/xzgl
     - name: h5ai
-      url: https://file.xzgl.site/
-    - name: 工作站
-      url: https://work.xzgljiang.com/	
+      url: https://file.xzgl.site/	

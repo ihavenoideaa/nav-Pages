@@ -1,16 +1,12 @@
 <div id="content" class="content-site customize-site">
-    <style>
-        h4:target {border-style:solid;border-width:0.5px;}
-    </style>
     {{ range .Site.Data.webstack }}
         {{ if .list }}
             {{ range .list }}
 	    <!--正文网址导航--》
             <!-- {{ .term }} -->
             <div class="d-flex flex-fill">
-                <h4 class="text-gray text-lg mb-4" id="{{ md5 .term }}">
-                    <!--<i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .term }}"></i>-->
-                    <i class="site-tag iconfont icon-tag icon-lg mr-1"></i>
+                <h4 class="text-gray text-lg mb-4">
+                    <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .term }}"></i>
                     {{ .term }}
                 </h4>
                 <div class="flex-fill"></div>
@@ -76,9 +72,8 @@
 	    <!--常用推荐-->
             <!-- {{ .taxonomy }} -->
             <div class="d-flex flex-fill">
-                <h4 class="text-gray text-lg mb-4"  id="{{ md5 .taxonomy }}">
-                    <!--<i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>-->
-                    <i class="site-tag iconfont icon-tag icon-lg mr-1"></i>
+                <h4 class="text-gray text-lg mb-4">
+                    <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>
                     {{ .taxonomy }}
                 </h4>
                 <!--div class="flex-fill"></div>
