@@ -1,4 +1,4 @@
-name: Deploy Hugo # 任君喜欢
+name: Nav Deploy Hugo # 任君喜欢
 
 on:
   push:
