@@ -100,4 +100,11 @@
           logo: 
           url: https://imnerd.org/doumark.html
           description: 定时同步我的豆瓣观影数据到我的博客仓库中。
-   
+
+- taxonomy: Git仓库收藏
+  icon: fab fa-github
+  links:
+        - title: lmm214/immmmm
+          logo: bookcat.png
+          url: https://github.com/lmm214/immmmm
+          description: 近期观影、近期阅读 。
