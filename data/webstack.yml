@@ -31,6 +31,10 @@
       logo: https://api.iowen.cn/favicon/music.apple.com.png
       url: https://music.apple.com/cn/browse
       description:
+    - title: 腾讯云控制台
+      logo: https://api.iowen.cn/favicon/console.cloud.tencent.com.png
+      url: https://console.cloud.tencent.com/
+      description:
 - taxonomy: 网址导航
   icon: far fa-bookmark
   list:
@@ -226,7 +230,6 @@
           logo: 
           url: http://www.dmh8.com/
           description: 樱花动漫
-      
 - taxonomy: 资源获取
   icon: fas fa-helicopter
   list:
