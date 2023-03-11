@@ -68,38 +68,10 @@
 - taxonomy: 博文收藏
   icon: fas fa-link
   links:
-        - title: Hugo 「近期」短代码（基于 Doumark Actions）
+        - title: Hugo 友链朋友圈
           logo: 
-          url: https://immmmm.com/hugo-shortcodes-recently-by-douban/
-          description: 近期观影、近期阅读 。
-        - title: Hugo 「近期」短代码（基于 Memos Docker）
-          logo: 
-          url: https://immmmm.com/hugo-shortcodes-recently-by-memos/
-          description: 近期光影、近期 Memos。
-        - title: Hugo 相册短代码
-          logo: 
-          url: https://immmmm.com/hugo-shortcodes-gallery/
-          description: 文章内插入相册图片。
-        - title: Hugo 豆瓣短代码
-          logo: 
-          url: https://immmmm.com/hugo-shortcodes-douban/
-          description: 文章内插入豆瓣卡片。
-        - title: 「电影 / 阅读」页面，顶！
-          logo: 
-          url: https://immmmm.com/doumark-action/
-          description: 大木老师的我的观影和我的阅读界面
-        - title: Hugo Shortcodes 示例
-          logo: 
-          url: https://blog.yandaojiang.com/posts/others/hugo_shortcodes%E7%A4%BA%E4%BE%8B/
-          description: 图片、视频、阅读和观影等短代码示例。
-        - title: 在 hugo 中插入游戏信息卡片
-          logo: 
-          url: https://fun2ex.com/posts/game-info-show-api/
-          description: 获取游戏数据并展示。
-        - title: 豆瓣书影音同步 GitHub Action
-          logo: 
-          url: https://imnerd.org/doumark.html
-          description: 定时同步我的豆瓣观影数据到我的博客仓库中。
+          url: https://immmmm.com/hi-friends-circle/
+          description:  Hugo 友链朋友圈
 
 - taxonomy: Git仓库收藏
   icon: fab fa-github
@@ -107,4 +79,8 @@
         - title: lmm214/immmmm
           logo: bookcat.png
           url: https://github.com/lmm214/immmmm
-          description: 近期观影、近期阅读 。
+          description: 林木木大佬博客源码 
+        - title: halo-sigs/awesome-halo
+          logo: bookcat.png
+          url: https://github.com/halo-sigs/awesome-halo
+          description: Halo 插件主题发布仓库
