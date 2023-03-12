@@ -31,10 +31,6 @@
       logo: https://api.iowen.cn/favicon/music.apple.com.png
       url: https://music.apple.com/cn/browse
       description:
-    - title: 腾讯云控制台
-      logo: https://api.iowen.cn/favicon/console.cloud.tencent.com.png
-      url: https://console.cloud.tencent.com/
-      description:
 - taxonomy: 网址导航
   icon: far fa-bookmark
   list:
@@ -174,12 +170,24 @@
           logo: https://api.iowen.cn/favicon/github.com.png
           url: https://github.com/awesome-selfhosted/awesome-selfhosted
           description: 可托管在服务器上的免费软件网络服务和Web应用程序列表
+        - title: Awesome-chatgpt-api 🪜
+          logo: https://api.iowen.cn/favicon/github.com.png
+          url: https://github.com/reorx/awesome-chatgpt-api
+          description: 基于 ChatGPT API，且允许配置自己的 API key 的工具和应用的精选列表。
     - term: AI Products 🤖
       links:
         - title: DALL·E 2 🪜
           logo: https://api.iowen.cn/favicon/openai.com/product/dall-e-2.png
           url: https://openai.com/product/dall-e-2
           description: DALL·E 2 是一个人工智能系统，可以根据自然语言的描述创建逼真的图像和艺术作品。
+        - title: ChatGPT Web 
+          logo: https://api.iowen.cn/favicon/chat.openai.com/chat.png
+          url: https://chat.theb.ai/ 
+          description: 相对稳定，恢复速度较快的ChatGPT国内直连版本
+        - title: ChatGPT Shortcut
+          logo: https://api.iowen.cn/favicon/newzone.top/chat.png
+          url: https://newzone.top/chatgpt/ 
+          description: 让生产力加倍的 ChatGPT 快捷指令
 - taxonomy: 影视观看
   icon: fas fa-film fa-lg
   list:
@@ -191,7 +199,7 @@
           description: Bilibili 视频弹幕网站。
         - title: 哔嘀影视
           logo: https://api.iowen.cn/favicon/www.bdys01.com.png
-          url: www.bdys01.com
+          url: https://www.bdys01.com
           description: 主要提供大量高清的影视在线播放和资源下载
         - title: 低端影视
           logo: https://api.iowen.cn/favicon/ddys.art.png
