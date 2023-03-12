@@ -113,7 +113,7 @@
           url: https://zh.moegirl.org.cn/Mainpage
           description: 二次元的百科
 
-    - term: 云服务器 ☁️
+    - term: 云计算 ☁️
       links:
         - title: 阿里云
           logo: https://api.iowen.cn/favicon/account.aliyun.com.png
@@ -127,18 +127,30 @@
           logo: https://api.iowen.cn/favicon/huawei.com.png
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
+        - title: 又拍云
+          logo: https://api.iowen.cn/favicon/www.upyun.com.png
+          url: https://www.upyun.com/
+          description: 场景化CDN，提供云存储、云处理、云安全
+        - title: 搬瓦工
+          logo: 
+          url: https://bandwagonhost.com/
+          description: 搬瓦工vps
         - title: 天翼云
-          logo: https://api.iowen.cn/favicon/www.ctyun.cn/h5/auth/.png
+          logo: https://api.iowen.cn/favicon/www.ctyun.cn/h5/auth.png
           url: https://www.ctyun.cn/h5/auth/
           description: 中国电信天翼云。
         - title: Vultr
           logo: https://api.iowen.cn/favicon/www.vultr.com.png
           url: https://www.vultr.com/
           description: 只适合海外业务，机房遍布全球
+        - title: Cloudflare
+          logo: https://api.iowen.cn/favicon/www.cloudflare.com.png
+          url: https://www.cloudflare.com/zh-cn/
+          description: Cloudflare 是一个全球网络，旨在让您连接到互联网的一切都安全、私密、快速和可靠。          
 - taxonomy: 工作效率
   icon: fas fa-laptop-code	
   list:
-    - term: 开源分享 🧩
+    - term: DevOps 🧩
       links:
         - title: GitHub 🪜
           logo: https://api.iowen.cn/favicon/github.com.png
@@ -152,6 +164,10 @@
           logo: https://api.iowen.cn/favicon/gitee.com.png
           url: https://gitee.com/
           description: Gitee是开源中国社区推出的基于Git的代码托管服务
+        - title: CODING
+          logo: https://api.iowen.cn/favicon/coding.net.png
+          url: https://xzgl.coding.net/
+          description: 腾讯云旗下一站式 DevOps 研发管理平台
         - title: CodePen
           logo: https://api.iowen.cn/favicon/codepen.io.png
           url: https://codepen.io/pen/
@@ -297,13 +313,21 @@
         - title: Deviantart 🪜
           logo: https://api.iowen.cn/favicon/www.deviantart.com.png
           url: https://www.deviantart.com/
-          description:	艺术画作、3D模型、插画分享                     
+          description:	艺术画作、3D模型、插画分享 
+        - title: Cool Backgrounds
+          logo: https://api.iowen.cn/favicon/coolbackgrounds.io.png
+          url: https://coolbackgrounds.io/
+          description: 生成引人注目的、色彩丰富的背景图像的工具
     - term: 音乐资源 🎵
       links:        
         - title: 下歌吧
           logo: https://api.iowen.cn/favicon/music.y444.cn.png
           url: https://music.y444.cn/#/
-          description:	音乐较齐全，flac格式音乐下载 
+          description:	音乐较齐全，flac格式音乐下载
+        - title: MyFreeMP3
+          logo: https://api.iowen.cn/favicon/tool.liumingye.cn/music.png
+          url: https://tool.liumingye.cn/music/#/
+          description: 音乐在线听、下载（版权受限）
         - title: QQ音乐
           logo: https://api.iowen.cn/favicon/y.qq.com.png
           url: https://y.qq.com/
@@ -312,10 +336,6 @@
           logo: https://api.iowen.cn/favicon/music.163.com.png
           url: https://music.163.com/
           description: 音乐的力量
-        - title: MyFreeMP3
-          logo: https://api.iowen.cn/favicon/tool.liumingye.cn/music.png
-          url: https://tool.liumingye.cn/music/#/
-          description: 音乐在线听、下载（版权受限）
         - title: Spotify
           logo: https://api.iowen.cn/favicon/open.spotify.com.png
           url: https://open.spotify.com/
@@ -366,6 +386,18 @@
   list: 
     - term: 文件处理 🧮
       links:
+        - title: 改图神器/在线PS
+          logo: https://api.iowen.cn/favicon/www.logosc.cn.png
+          url: https://www.logosc.cn/online-ps
+          description: 在线PS精简版/专业版
+        - title: Photopea
+          logo: https://api.iowen.cn/favicon/www.photopea.com.png
+          url: https://www.photopea.com/
+          description: Oline Photo Editor 在线PS
+        - title: Ezgif.com
+          logo: https://api.iowen.cn/favicon/ezgif.com.png
+          url: https://ezgif.com/
+          description: GIF制作、视频裁剪	
         - title: Convertio文件转换器
           logo: https://api.iowen.cn/favicon/convertio.co.png
           url: https://convertio.co/zh/
@@ -373,15 +405,7 @@
         - title: CloudConvert
           logo: https://api.iowen.cn/favicon/cloudconvert.com.png
           url: https://cloudconvert.com/
-          description: PNG TO ICON
-        - title: Ezgif.com
-          logo: https://api.iowen.cn/favicon/ezgif.com.png
-          url: https://ezgif.com/
-          description: GIF制作、视频裁剪			  
-        - title: 改图神器/在线PS
-          logo: https://api.iowen.cn/favicon/www.logosc.cn.png
-          url: https://www.logosc.cn/online-ps
-          description: 在线PS精简版/专业版
+          description: PNG TO ICON		  
         - title: I💙IMAGE
           logo: https://api.iowen.cn/favicon/www.iloveimg.com.png
           url: https://www.iloveimg.com/convert-to-jpg/webp-to-jpg
@@ -394,25 +418,56 @@
           logo: https://api.iowen.cn/favicon/online-audio-converter.com.png
           url: https://online-audio-converter.com/	
           description: 视频音频提取
+        - title: ACONVERT.COM
+          logo: https://api.iowen.cn/favicon/www.aconvert.com.png
+          url: https://www.aconvert.com/cn/
+          description: 在线转换各类PDF，文档，电子书，图像，图标，视频，音频和压缩文件(<40M) 
         - title: 迅捷视频
           logo: https://api.iowen.cn/favicon/www.xunjieshipin.com.png
           url: https://www.xunjieshipin.com/online-converter
           description: 视频音频格式处理（<20M）
+        - title: 在线工具箱
+          logo: https://api.iowen.cn/favicon/tool.lu.png
+          url: https://tool.lu/
+          description: 图片转latex、日期计算、html/css/js处理、进制转换、crontab、ascii画、摩斯密码等等
         - title: PDF24 Tools
           logo: https://api.iowen.cn/favicon/tools.pdf24.org/zh.png
           url: https://tools.pdf24.org/zh/
           description: 免费且易于使用的在线PDF工具
-
+        - title: ALL TO ALL
+          logo: https://api.iowen.cn/favicon/www.alltoall.net.png
+          url: https://www.alltoall.net/
+          description: PDF转Word、logo转矢量、自动去背景、压缩格式转换、不常见图片格式转换、表格格式转换
+    - term:  生活类 🧭
+      links:
+        - title: Windy
+          logo: https://api.iowen.cn/favicon/www.windy.com.png
+          url: https://www.windy.com/zh/
+          description: 世界地图天气预报和风向地图
+    - term:  插件 🐒
+      links:
+        - title: CrxDL.COM
+          logo: https://api.iowen.cn/favicon/crxdl.com.png
+          url: https://crxdl.com/
+          description: 下载Chrome扩展插件Crx离线安装包
+        - title: Tampermonkey
+          logo: https://api.iowen.cn/favicon/www.tampermonkey.net.png
+          url: https://www.tampermonkey.net/
+          description: 脚本管理器
+        - title: GreasyFork
+          logo: https://api.iowen.cn/favicon/greasyfork.org.png
+          url: https://greasyfork.org/zh-CN
+          description: 提供用户脚本的网站
+        - title: 油小猴
+          logo: https://api.iowen.cn/favicon/www.youxiaohou.com.png
+          url: https://www.youxiaohou.com/
+          description: 一个汇聚了各种黑科技的小站
     - term: 其他工具 🔧
       links:
         - title: 虚拟手机号码
           logo: https://api.iowen.cn/favicon/sms-activate.org/cn/.png
           url: https://sms-activate.org/cn/
           description: 使用虚拟手机号码接收短信验证码
-        - title: 在线扒站工具
-          logo: https://api.iowen.cn/favicon/bazhan.wang.png
-          url: https://bazhan.wang/
-          description: 一键将指定网页的HTML、CSS、JS等前端资源打包下载
         - title: 网页rgb颜色对照查询工具
           logo: https://api.iowen.cn/favicon/yanse.33231.com.png
           url: http://yanse.33231.com/
@@ -420,7 +475,16 @@
         - title: 临时邮箱
           logo: https://api.iowen.cn/favicon/linshiyouxiang.net.png
           url: https://linshiyouxiang.net/
-          description: 提供临时邮箱，一次性邮箱，是完全匿名和安全的。       
+          description: 提供临时邮箱，一次性邮箱，是完全匿名和安全的
+        - title: 虚拟信用卡
+          logo: https://api.iowen.cn/favicon/cardgenerator.org.p  ng
+          url: https://cardgenerator.org/
+          description: 生成信用卡号码，包括在线注册和测试所需的所有详细信息。 
+        - title: 在线扒站工具
+          logo: https://api.iowen.cn/favicon/bazhan.wang.png
+          url: https://bazhan.wang/
+          description: 一键将指定网页的HTML、CSS、JS等前端资源打包下载
+      
 - taxonomy: 资讯学习
   icon: fas fa-rss-square fa-lg
   list: 
