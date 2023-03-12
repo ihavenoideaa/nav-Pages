@@ -484,6 +484,10 @@
           logo: https://api.iowen.cn/favicon/bazhan.wang.png
           url: https://bazhan.wang/
           description: 一键将指定网页的HTML、CSS、JS等前端资源打包下载
+        - title: 九蛙工具箱
+          logo: https://api.iowen.cn/favicon/www.jiuwa.net.png
+          url: https://www.jiuwa.net/
+          description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成
       
 - taxonomy: 资讯学习
   icon: fas fa-rss-square fa-lg
