@@ -3,18 +3,24 @@
 - taxonomy: Leisure 💙
   icon: far fa-star
   links: 
-    - title: bilibili
-      logo: bilibili.png
-      url: https://www.bilibili.com/
-      description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
     - title: Mikutap
       logo: 
       url: https://aidn.jp/mikutap/
       description: 鼠标拖动解压小游戏
+    - title: bilibili
+      logo: bilibili.png
+      url: https://www.bilibili.com/
+      description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
 - taxonomy: VIDEO
   icon: fab fa-bilibili
   list:
-    - term: Bilibili
+    - term: 视频收藏
+      links: 
+        - title: 《白日梦想家》Do What You Want
+          logo: https:////i0.hdslb.com/bfs/archive/89eb6b9b10e6c01a2fc47fd68ae58bca3eab1e21.jpg@672w_378h_1c_!web-search-common-cover
+          url: https://www.bilibili.com/video/BV1Wb411f7Tz/
+          description: BGM：Stay Alive. 如果你见过格陵兰，喜马拉雅和冰岛的火山，就再不会被生活打败。
+    - term: 视频博主
       links: 
         - title: 木鱼水心
           logo: https://i2.hdslb.com/bfs/face/e922d9dc09a2d21f1400ad0f02f75ecf1b3575c8.jpg@240w_240h_1c_1s.webp
@@ -33,8 +39,47 @@
         - title: 红楼梦
           logo: https://i0.hdslb.com/bfs/archive/d7a15ce7bccdaf3ff0a41e2b2c80feac1f9edc82.jpg@320w_200h_!web-space-upload-video.webp
           url: https://www.bilibili.com/video/BV1CC4y1a7ee/
-          description: 木鱼水心-红楼梦合集
+          description: 木鱼水心-红楼梦合集视频
         - title: 水浒传
           logo: https://i2.hdslb.com/bfs/archive/0ab2006362e4dc9c2aa8678f553c4c713e16ceac.jpg@480w_300h_!web-space-channel-video.webp
           url: https://space.bilibili.com/927587/channel/collectiondetail?sid=103059
-          description: 木鱼水心-水浒传系列
+          description: 木鱼水心-水浒传系列视频
+- taxonomy: 听歌
+  icon: fa-solid fa-headphones
+  list:
+    - term: 音乐博主
+      links: 
+        - title: 范同学Anuoian
+          logo: https://i1.hdslb.com/bfs/face/3ac2c092aaceabc8b8ee4641976e8fecd6d296cc.jpg@240w_240h_1c_1s.webp
+          url: 	https://space.bilibili.com/37653934
+          description: Eason专属
+        - title: 音乐私藏馆
+          logo: https://i0.hdslb.com/bfs/face/91a6526445f61e2d491523242b532d5e76f0435a.jpg@240w_240h_1c_1s.webp
+          url: 	https://space.bilibili.com/229733301
+          description: 歌曲现场、MV分享UP主
+    - term: 音乐收藏
+      links: 
+        - title:  💿于心有愧
+          logo: https://i2.hdslb.com/bfs/archive/0939e4f99977ef1ac4f72cc0d1afd63c0684e904.jpg@672w_378h_1c_!web-search-common-cover.webp
+          url: 	https://www.bilibili.com/video/BV1qt4y1z7a3/
+          description: 陈奕迅《于心有愧》现场。大概当初我未懂得顾忌 年少率性害惨你
+        - title:  💿倾城
+          logo: https://i1.hdslb.com/bfs/archive/f6c4c203c86d3cf644444d271220cf6a95a1c129.jpg@672w_378h_1c_!web-search-common-cover
+          url: 	https://www.bilibili.com/video/BV1Zy4y1a7vk/
+          description: 陈奕迅《倾城》神级翻唱现场
+        - title:  💿黄金时代
+          logo: https://i2.hdslb.com/bfs/archive/59ee7038b2ebd2dc38456f5aaf49d47dc5a3af28.jpg@672w_378h_1c_!web-search-common-cover
+          url: 	https://www.bilibili.com/video/BV1H84y1F773/
+          description: 陈奕迅《黄金时代》现场，带你回到那天清晨 你和谁结伴前来
+        - title:  💿最冷一天
+          logo: https://i1.hdslb.com/bfs/archive/212bd5a61ee50c3fd94eb6fc772837fe5f82329f.jpg@672w_378h_1c_!web-search-common-cover
+          url: 	https://www.bilibili.com/video/BV1Dw411R7LE/
+          description: 陈奕迅《最冷一天》神级翻唱现场！
+        - title:  💿You're Not Alone
+          logo: https://i2.hdslb.com/bfs/archive/649daec7d29e2a415e778005ce125ce675e31390.jpg@672w_378h_1c_!web-search-common-cover
+          url: 	https://www.bilibili.com/video/BV1RK4y1n759/
+          description: Owl City - You're Not Alone（feat. Britt Nicole）
+        - title:  💿多远都要在一起MV
+          logo: https://i2.hdslb.com/bfs/archive/5e46a0d337dfbe849ee45b5d300da049bb8bee71.jpg@672w_378h_1c_!web-search-common-cover
+          url: 	https://www.bilibili.com/video/BV1iS4y1v7P8/
+          description: GEM邓紫棋《多远都要在一起》MV 

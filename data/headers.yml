@@ -6,9 +6,9 @@
   icon: fab fa-blogger-b
   link: https://blog.xzgljiang.com/
 
-- item: Linux命令搜索
-  icon: fab fa-linux
-  link: https://linux.xzgl.site/ 
+- item: AList
+  icon: fas fa-table-list
+  link: https://share.xzgljiang.com/
   
 - item: 其他
   icon: fa fa-cat 
