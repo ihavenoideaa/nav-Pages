@@ -32,8 +32,8 @@ publishDir            = "public"					# 站点静态文件保存目录
 
 [params.images]
     favicon           = "assets/images/Coffee_1.png"
-    searchImageL      = "assets/images/bg-light.jpg"		# 搜索部分浅色背景图
-    searchImageD      = "assets/images/bg-dark.jpg"		# 搜索部分深色背景图
+    searchImageL      = "assets/images/coffee1.jpg"		# 搜索部分浅色背景图
+    searchImageD      = "assets/images/coffee2.jpg"		# 搜索部分深色背景图
     logoExpandLight   = "assets/images/kafeijiaonang.svg"
     logoExpandDark    = "assets/images/kafeijiaonang.svg"
     logoCollapseLight = "assets/images/Coffee_1.png"
