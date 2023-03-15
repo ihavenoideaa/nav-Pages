@@ -3,6 +3,10 @@
 - taxonomy: Leisure 💙
   icon: far fa-star
   links: 
+    - title: bilibili
+      logo: bilibili.png
+      url: https://www.bilibili.com/
+      description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
     - title: Mikutap
       logo: 
       url: https://aidn.jp/mikutap/
@@ -24,10 +28,6 @@
           logo: https://i1.hdslb.com/bfs/face/c357101751017e5f36ad0b514c605b05cf52d8da.jpg@240w_240h_1c_1s.webp
           url: https://space.bilibili.com/488779255
           description: 海贼王解说UP主
-        - title: bilibili
-          logo: bilibili.png
-          url: https://www.bilibili.com/
-          description: 哔哩哔哩 (゜-゜)つロ 干杯~-bilibili
     - term: 系列合集
       links:
         - title: 红楼梦
