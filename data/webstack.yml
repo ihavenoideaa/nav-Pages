@@ -28,7 +28,7 @@
           url: https://www.learncpp.com/
           description: 	无论您以前是否有任何编程经验，本站点上的教程都将引导您完成编写、编译和调试 C++ 程序的所有步骤，所有步骤均带有大量示例。
 - taxonomy: 参考资料 
-  icon: fas fa-code 
+  icon: fas fa-scroll 
   links:
         - title: Linux命令大全(手册)
           logo: 
