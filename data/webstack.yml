@@ -49,10 +49,6 @@
           logo: 
           url: https://gohugo.io/documentation/
           description: Hugo官方文档
-        - title: Hugo主题 hello-friend
-          logo: 
-          url: https://themes.gohugo.io/themes/hugo-theme-hello-friend/
-          description: hello-friend配置文档 
         - title: Hugo主题 PaperMod
           logo: 
           url: https://github.com/adityatelange/hugo-PaperMod/wiki
@@ -73,8 +69,6 @@
           logo: 
           url: https://doc.ssr.rs/
           description: Rust版ServerStatus云探针
-
-
 - taxonomy: 博文收藏
   icon: fas fa-link
   links:
