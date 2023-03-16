@@ -98,7 +98,7 @@
           logo: https://api.iowen.cn/favicon/www.126.com.png
           url: https://www.126.com/
           description: 你的专业电子邮局
-    - term: 百科 ️🔣
+    - term:  百科 ️🔣
       links:
         - title: WIKIPEDIA 🪜
           logo: https://api.iowen.cn/favicon/www.wikipedia.org.png
@@ -112,7 +112,6 @@
           logo: https://api.iowen.cn/favicon/zh.moegirl.org.cn.png
           url: https://zh.moegirl.org.cn/Mainpage
           description: 二次元的百科
-
     - term: 云计算 ☁️
       links:
         - title: 阿里云
@@ -233,7 +232,6 @@
           logo: https://api.iowen.cn/favicon/www.youtube.com.png
           url: https://www.youtube.com/
           description: 油管-全球最大的视频网站 
-
     - term: 电影之外 🎬
       links:
         - title: 可小果英文站
@@ -251,9 +249,13 @@
     - term: 动漫 🎏
       links:
         - title: 樱花动漫
-          logo: 
+          logo: http://www.dm88.me/template/mytheme/statics/img/favicon.ico
           url: http://www.dmh8.com/
           description: 樱花动漫
+        - title: OmoFun
+          logo: https://api.iowen.cn/favicon/www.omofun.top.png
+          url: https://www.omofun.top/
+          description:
 - taxonomy: 资源获取
   icon: fas fa-helicopter
   list:
@@ -287,7 +289,6 @@
           logo: https://api.iowen.cn/favicon/www.jianguoyun.com.png
           usrl: https://www.jianguoyun.com/
           description: 坚果云官网。
-
     - term: 图片模型 🛤️️️
       links:
         - title: Pexels 
@@ -380,20 +381,19 @@
           logo: https://api.iowen.cn/favicon/hehuan.co.png
           url: http://www.hehuan.co/
           description: 颜文字分享
-
 - taxonomy: 在线工具
   icon: fas fa-tools fa-lg
   list: 
     - term: 文件处理 🧮
       links:
-        - title: 改图神器/在线PS
-          logo: https://api.iowen.cn/favicon/www.logosc.cn.png
-          url: https://www.logosc.cn/online-ps
-          description: 在线PS精简版/专业版
         - title: Photopea
           logo: https://api.iowen.cn/favicon/www.photopea.com.png
           url: https://www.photopea.com/
           description: Oline Photo Editor 在线PS
+        - title: 改图神器/在线PS
+          logo: https://api.iowen.cn/favicon/www.logosc.cn.png
+          url: https://www.logosc.cn/online-ps
+          description: 在线PS精简版
         - title: Ezgif.com
           logo: https://api.iowen.cn/favicon/ezgif.com.png
           url: https://ezgif.com/
@@ -444,6 +444,10 @@
           logo: https://api.iowen.cn/favicon/www.windy.com.png
           url: https://www.windy.com/zh/
           description: 世界地图天气预报和风向地图
+        - title: AIDN | CONTENTS
+          logo: https://api.iowen.cn/favicon/aidn.jp.png
+          url: https://aidn.jp/contents/
+          description: 各种在线解压小游戏
     - term:  插件 🐒
       links:
         - title: CrxDL.COM
@@ -487,8 +491,7 @@
         - title: 九蛙工具箱
           logo: https://api.iowen.cn/favicon/www.jiuwa.net.png
           url: https://www.jiuwa.net/
-          description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成
-      
+          description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成     
 - taxonomy: 资讯学习
   icon: fas fa-rss-square fa-lg
   list: 
