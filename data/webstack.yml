@@ -203,6 +203,11 @@
           logo: https://api.iowen.cn/favicon/newzone.top/chat.png
           url: https://newzone.top/chatgpt/ 
           description: 让生产力加倍的 ChatGPT 快捷指令
+        - title: 【网站推荐】收集分享一些AI工具（网站）
+          logo: https:////i0.hdslb.com/bfs/article/banner/fabb37667ec065d4c94fbc86c2db249a993bd16d.png@117w_88h_75Q_1c.webp
+          url: https://www.bilibili.com/read/cv21864354
+          description: AI网址推荐（待使用体验测试）
+
 - taxonomy: 影视观看
   icon: fas fa-film fa-lg
   list:
