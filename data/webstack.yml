@@ -170,7 +170,12 @@
         - title: CodePen
           logo: https://api.iowen.cn/favicon/codepen.io.png
           url: https://codepen.io/pen/
-          description: CodePen是面向前端设计人员和开发人员的社交开发环境       
+          description: CodePen是面向前端设计人员和开发人员的社交开发环境
+        - title: Vercel
+          logo: https://api.iowen.cn/favicon/vercel.com.png
+          url: https://vercel.com/
+          description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
+     
     - term: Awesome系列 🎆
       links:
         - title: Awesome Github 🪜
@@ -289,7 +294,11 @@
         - title: MEGA云盘
           logo: https://api.iowen.cn/favicon/mega.nz/.png
           url: https://mega.nz/#fm/X1EnRYII
-          description: MEGA将云存储、文件和文件夹共享、聊天、会议等功能整合到一处  
+          description: MEGA将云存储、文件和文件夹共享、聊天、会议等功能整合到一处
+        - title: OneDrive
+          logo: https://p.sfx.ms/images/favicon.ico
+          url: https://onedrive.live.com/
+          description: Microsoft的云存储服务
         - title: 坚果云
           logo: https://api.iowen.cn/favicon/www.jianguoyun.com.png
           usrl: https://www.jianguoyun.com/
