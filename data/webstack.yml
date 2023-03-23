@@ -359,6 +359,7 @@
           logo: https://api.iowen.cn/favicon/music.liuzhijin.cn.png
           url: https://music.liuzhijin.cn/
           description:	特制多站合一音乐搜索解决方案 
+
     - term: 影视资源 🎦
       links:  
         - title: 布谷4K电影世界
@@ -400,18 +401,10 @@
   list: 
     - term: 文件处理 🧮
       links:
-        - title: Photopea
-          logo: https://api.iowen.cn/favicon/www.photopea.com.png
-          url: https://www.photopea.com/
-          description: Oline Photo Editor 在线PS
-        - title: 改图神器/在线PS
-          logo: https://api.iowen.cn/favicon/www.logosc.cn.png
-          url: https://www.logosc.cn/online-ps
-          description: 在线PS精简版
         - title: Ezgif.com
           logo: https://api.iowen.cn/favicon/ezgif.com.png
           url: https://ezgif.com/
-          description: GIF制作、视频裁剪	
+          description: Ezgif.com 是一个简单的在线 GIF 制作工具和用于基本动画 GIF 编辑的工具集。	
         - title: Convertio文件转换器
           logo: https://api.iowen.cn/favicon/convertio.co.png
           url: https://convertio.co/zh/
@@ -419,11 +412,7 @@
         - title: CloudConvert
           logo: https://api.iowen.cn/favicon/cloudconvert.com.png
           url: https://cloudconvert.com/
-          description: PNG TO ICON		  
-        - title: I💙IMAGE
-          logo: https://api.iowen.cn/favicon/www.iloveimg.com.png
-          url: https://www.iloveimg.com/convert-to-jpg/webp-to-jpg
-          description: Convert WEBP to JPG(Limit 30 images)
+          description: CloudConvert是一个在线文件转换器。我们支持几乎所有音频、视频、文档、电子书、档案、图像、电子表格和演示文稿格式。要开始，请使用下面的按钮并从您的计算机中选择要转换的文件。		  
         - title: XAudioPro
           logo: https://api.iowen.cn/favicon/www.xaudiopro.com/easyedit.png
           url: https://www.xaudiopro.com/easyedit/
@@ -452,6 +441,34 @@
           logo: https://api.iowen.cn/favicon/www.alltoall.net.png
           url: https://www.alltoall.net/
           description: PDF转Word、logo转矢量、自动去背景、压缩格式转换、不常见图片格式转换、表格格式转换
+
+    - term: 图片处理 🏙️
+      links:
+        - title: Photopea
+          logo: https://api.iowen.cn/favicon/www.photopea.com.png
+          url: https://www.photopea.com/
+          description: Oline Photo Editor 在线PS
+        - title: 改图神器/在线PS
+          logo: https://api.iowen.cn/favicon/www.logosc.cn.png
+          url: https://www.logosc.cn/online-ps
+          description: 在线PS精简版
+        - title: Ezgif.com
+          logo: https://api.iowen.cn/favicon/ezgif.com.png
+          url: https://ezgif.com/
+          description: GIF制作、视频裁剪	
+        - title: TinyPNG
+          logo: https://api.iowen.cn/favicon/tinypng.com.png
+          url: https://tinypng.com/
+          description: WebP、PNG和JPEG压缩
+        - title: I💙IMAGE
+          logo: https://api.iowen.cn/favicon/www.iloveimg.com.png
+          url: https://www.iloveimg.com/convert-to-jpg/webp-to-jpg
+          description: Convert WEBP to JPG(Limit 30 images)
+        - title: 路过图床
+          logo: https://api.iowen.cn/favicon/imgse.com.png
+          url: https://imgse.com/
+          description: 免费公共图床，全球CDN加速，支持外链，原图保存，批量上传，最大单张支持10 MB
+
     - term:  生活类 🧭
       links:
         - title: Windy
@@ -505,7 +522,15 @@
         - title: 九蛙工具箱
           logo: https://api.iowen.cn/favicon/www.jiuwa.net.png
           url: https://www.jiuwa.net/
-          description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成     
+          description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成
+        - title: 工具哇！
+          logo: https://api.iowen.cn/favicon/toolwa.com.png
+          url: https://toolwa.com/
+          description: 娱乐、便民、站长、开发工具集
+        - title: SteamDB
+          logo: https://api.iowen.cn/favicon/steamdb.info.png
+          url: https://steamdb.info/
+          description: Steam上所有内容的数据库     
 - taxonomy: 资讯学习
   icon: fas fa-rss-square fa-lg
   list: 
