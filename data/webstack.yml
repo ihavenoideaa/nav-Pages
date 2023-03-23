@@ -267,7 +267,7 @@
           url: https://www.omofun.top/
           description:
 - taxonomy: 资源获取
-  icon: fas fa-helicopter
+  icon: fas fa-cloud-download-alt
   list:
     - term: 分享云盘 💠
       links:
@@ -399,7 +399,7 @@
 - taxonomy: 在线工具
   icon: fas fa-tools fa-lg
   list: 
-    - term: 文件处理 🧮
+    - term: 文件处理 💾
       links:
         - title: Ezgif.com
           logo: https://api.iowen.cn/favicon/ezgif.com.png
@@ -479,24 +479,6 @@
           logo: https://api.iowen.cn/favicon/aidn.jp.png
           url: https://aidn.jp/contents/
           description: 各种在线解压小游戏
-    - term:  插件 🐒
-      links:
-        - title: CrxDL.COM
-          logo: https://api.iowen.cn/favicon/crxdl.com.png
-          url: https://crxdl.com/
-          description: 下载Chrome扩展插件Crx离线安装包
-        - title: Tampermonkey
-          logo: https://api.iowen.cn/favicon/www.tampermonkey.net.png
-          url: https://www.tampermonkey.net/
-          description: 脚本管理器
-        - title: GreasyFork
-          logo: https://api.iowen.cn/favicon/greasyfork.org.png
-          url: https://greasyfork.org/zh-CN
-          description: 提供用户脚本的网站
-        - title: 油小猴
-          logo: https://api.iowen.cn/favicon/www.youxiaohou.com.png
-          url: https://www.youxiaohou.com/
-          description: 一个汇聚了各种黑科技的小站
     - term: 其他工具 🔧
       links:
         - title: 虚拟手机号码
@@ -527,10 +509,35 @@
           logo: https://api.iowen.cn/favicon/toolwa.com.png
           url: https://toolwa.com/
           description: 娱乐、便民、站长、开发工具集
+
+- taxonomy: 功能拓展
+  icon: fas fa-puzzle-piece
+  list: 
+    - term:  插件 🐒
+      links:
+        - title: CrxDL.COM
+          logo: https://api.iowen.cn/favicon/crxdl.com.png
+          url: https://crxdl.com/
+          description: 下载Chrome扩展插件Crx离线安装包
+        - title: Tampermonkey
+          logo: https://api.iowen.cn/favicon/www.tampermonkey.net.png
+          url: https://www.tampermonkey.net/
+          description: 脚本管理器
+        - title: GreasyFork
+          logo: https://api.iowen.cn/favicon/greasyfork.org.png
+          url: https://greasyfork.org/zh-CN
+          description: 提供用户脚本的网站
+        - title: 油小猴
+          logo: https://api.iowen.cn/favicon/www.youxiaohou.com.png
+          url: https://www.youxiaohou.com/
+          description: 一个汇聚了各种黑科技的小站
+    - term: 其他🤿
+      links:
         - title: SteamDB
           logo: https://api.iowen.cn/favicon/steamdb.info.png
           url: https://steamdb.info/
-          description: Steam上所有内容的数据库     
+          description: Steam上所有内容的数据库   
+
 - taxonomy: 资讯学习
   icon: fas fa-rss-square fa-lg
   list: 
