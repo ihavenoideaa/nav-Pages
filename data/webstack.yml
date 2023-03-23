@@ -87,3 +87,20 @@
           logo: https://i2.hdslb.com/bfs/archive/5e46a0d337dfbe849ee45b5d300da049bb8bee71.jpg@672w_378h_1c_!web-search-common-cover
           url: 	https://www.bilibili.com/video/BV1iS4y1v7P8/
           description: GEM邓紫棋《多远都要在一起》MV 
+- taxonomy: 小游戏收藏
+  icon: fa-solid fa-gamepad
+  list:
+    - term: 在线娱乐
+      links: 
+        - title: 小霸王，其乐无穷
+          logo: https://api.iowen.cn/favicon/www.yikm.net.png
+          url: 	https://www.yikm.net/
+          description: 愿我们找回童年的回忆
+        - title: Flash 保存计划
+          logo: https://api.iowen.cn/favicon/flash.zczc.cz.png
+          url: 	https://flash.zczc.cz/
+          description: 保存闪客时代的一些记录
+        - title: Crazy Game
+          logo: https://api.iowen.cn/favicon/www.crazygames.com.png
+          url: https://www.crazygames.com/
+          description: 国外在线小游戏合集网站
