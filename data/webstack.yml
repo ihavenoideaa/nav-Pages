@@ -157,7 +157,7 @@
           description: GitHub 开源社区。
         - title: Docker Hub
           logo: https://api.iowen.cn/favicon/docker.com.png
-          url: https://github.com/
+          url: https://hub.docker.com/
           description: Docker镜像分享
         - title: Gitee
           logo: https://api.iowen.cn/favicon/gitee.com.png
