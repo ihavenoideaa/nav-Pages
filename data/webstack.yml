@@ -130,7 +130,7 @@
           logo: https://api.iowen.cn/favicon/www.upyun.com.png
           url: https://www.upyun.com/
           description: 场景化CDN，提供云存储、云处理、云安全
-        - title: 搬瓦工
+        - title: 搬瓦工 🪜
           logo: 
           url: https://bandwagonhost.com/
           description: 搬瓦工vps
@@ -200,7 +200,7 @@
           logo: https://api.iowen.cn/favicon/openai.com/product/dall-e-2.png
           url: https://openai.com/product/dall-e-2
           description: DALL·E 2 是一个人工智能系统，可以根据自然语言的描述创建逼真的图像和艺术作品。
-        - title: ChatGPT Web 
+        - title: ChatGPT Web 🪜
           logo: https://api.iowen.cn/favicon/chat.openai.com/chat.png
           url: https://chat.theb.ai/ 
           description: 相对稳定，恢复速度较快的ChatGPT国内直连版本
