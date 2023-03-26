@@ -259,7 +259,7 @@
     - term: 动漫 🎏
       links:
         - title: 樱花动漫
-          logo: http://www.dm88.me/template/mytheme/statics/img/favicon.ico
+          logo: 
           url: http://www.dmh8.com/
           description: 樱花动漫
         - title: OmoFun
@@ -537,6 +537,10 @@
           logo: https://api.iowen.cn/favicon/steamdb.info.png
           url: https://steamdb.info/
           description: Steam上所有内容的数据库   
+        - title: 下载链接
+          logo: xiazai.svg
+          url: ./resource
+          description: 拓展资源下载链接收藏
 
 - taxonomy: 资讯学习
   icon: fas fa-rss-square fa-lg

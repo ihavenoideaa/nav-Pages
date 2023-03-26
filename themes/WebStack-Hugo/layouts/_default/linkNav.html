@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Link Navigation</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+			margin: 0;
+			padding: 0;
+		}
+		h1 {
+			text-align: center;
+			margin-top: 20px;
+			margin-bottom: 30px;
+		}
+		ul {
+			list-style: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+		}
+		li {
+			margin: 20px 0;
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			text-align: center;
+		}
+		a {
+			display: block;
+			padding: 10px 20px;
+			background-color: #eee;
+			color: #333;
+			border-radius: 5px;
+			text-decoration: none;
+			box-shadow: 0 2px 4px rgba(0, 0, 0, 0.15);
+			transition: all 0.3s ease;
+		}
+		a:hover {
+			transform: translateY(-3px);
+			box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+			background-color: #333;
+			color: #fff;
+		}
+		.link-desc {
+			margin-top: 10px;
+			font-size: 14px;
+			color: #999;
+			line-height: 1.5;
+		}
+	</style>
+</head>
+<body>
+	<h1>Link Navigation</h1>
+	<ul>
+		<li>
+			<a href="https://www.google.com">Google</a>
+			<span class="link-desc">The world's most popular search engine.</span>
+		</li>
+		<li>
+			<a href="https://www.youtube.com">Youtube</a>
+			<span class="link-desc">The world's largest video sharing platform.</span>
+		</li>
+		<li>
+			<a href="https://www.facebook.com">Facebook</a>
+			<span class="link-desc">The world's largest social network.</span>
+		</li>
+		<li>
+			<a href="https://www.twitter.com">Twitter</a>
+			<span class="link-desc">The world's largest micro-blogging platform.</span>
+		</li>
+	</ul>
+</body>
+</html>
