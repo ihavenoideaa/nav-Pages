@@ -98,7 +98,7 @@
           logo: https://api.iowen.cn/favicon/www.126.com.png
           url: https://www.126.com/
           description: 你的专业电子邮局
-    - term:  百科 ️🔣
+    - term:  百科 🔣
       links:
         - title: WIKIPEDIA 🪜
           logo: https://api.iowen.cn/favicon/www.wikipedia.org.png
@@ -475,10 +475,7 @@
           logo: https://api.iowen.cn/favicon/www.windy.com.png
           url: https://www.windy.com/zh/
           description: 世界地图天气预报和风向地图
-        - title: AIDN | CONTENTS
-          logo: https://api.iowen.cn/favicon/aidn.jp.png
-          url: https://aidn.jp/contents/
-          description: 各种在线解压小游戏
+
     - term: 其他工具 🔧
       links:
         - title: 虚拟手机号码
