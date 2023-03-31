@@ -175,7 +175,13 @@
           logo: https://api.iowen.cn/favicon/vercel.com.png
           url: https://vercel.com/
           description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
-     
+    - term:  知识整理 📊
+      links:
+        - title: 腾讯文档
+          logo: https://api.iowen.cn/favicon/docs.qq.com.png
+          url: https://docs.qq.com/
+          description: 在线文档，支持多人在线协作编辑
+
     - term: Awesome系列 🎆
       links:
         - title: Awesome Github 🪜
