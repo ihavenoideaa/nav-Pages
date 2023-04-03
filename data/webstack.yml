@@ -454,10 +454,14 @@
           logo: https://api.iowen.cn/favicon/www.photopea.com.png
           url: https://www.photopea.com/
           description: Oline Photo Editor 在线PS
+        - title: 稿定设计
+          logo: https://api.iowen.cn/favicon/www.uupoop.com.png
+          url: https://www.uupoop.com/#/
+          description: 在线PS精简版/专业版（需登录）
         - title: 改图神器/在线PS
           logo: https://api.iowen.cn/favicon/www.logosc.cn.png
           url: https://www.logosc.cn/online-ps
-          description: 在线PS精简版
+          description: 在线PS精简版，一键抠图、去水印（需登录，次数少）
         - title: Ezgif.com
           logo: https://api.iowen.cn/favicon/ezgif.com.png
           url: https://ezgif.com/
