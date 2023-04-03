@@ -26,6 +26,10 @@
           logo: https://i2.hdslb.com/bfs/face/e922d9dc09a2d21f1400ad0f02f75ecf1b3575c8.jpg@240w_240h_1c_1s.webp
           url: 	https://space.bilibili.com/927587
           description: 影评某种程度上，是让看过这部片的人，不那么孤独的东西。
+        - title: 肝帝董佳宁
+          logo: https://i1.hdslb.com/bfs/face/a54abe16d28ecc4426e71738ddb5b2d2a8a23a3d.jpg@240w_240h_1c_1s.webp
+          url: https://space.bilibili.com/397490386
+          description: 董佳宁
         - title: 光影笔墨
           logo: https://i0.hdslb.com/bfs/face/a17c13aa2b6278009821ef93abbf48a3bc1cf6b3.jpg@240w_240h_1c_1s.webp
           url: https://space.bilibili.com/269319344
@@ -104,3 +108,8 @@
           logo: https://api.iowen.cn/favicon/www.crazygames.com.png
           url: https://www.crazygames.com/
           description: 国外在线小游戏合集网站
+        - title: AIDN | CONTENTS
+          logo: https://api.iowen.cn/favicon/aidn.jp.png
+          url: https://aidn.jp/contents/
+          description: 各种在线解压小游戏
+
