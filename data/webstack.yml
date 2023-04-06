@@ -7,7 +7,7 @@
       logo: https://api.iowen.cn/favicon/www.google.com.png
       url: https://www.goole.com/
       description:
-    - title: GitHub
+    - title: GitHub 
       logo: https://api.iowen.cn/favicon/github.com.png
       url: https://github.com/
       description:
@@ -40,10 +40,14 @@
           logo: https://api.iowen.cn/favicon/www.baidu.com.png
           url: https://baidu.com	
           description: 百度搜索 
-        - title: Google
+        - title: Google 🪜
           logo: https://api.iowen.cn/favicon/www.google.com.png
           url: https://www.google.com/	
           description: 谷歌搜索
+        - title: DuckDuckGo 🪜
+          logo: https://api.iowen.cn/favicon/duckduckgo.com.png
+          url: https://duckduckgo.com/	
+          description: 开启不受网络追踪的搜索之旅，隐私保护搜索引擎
         - title: WolframAlpha
           logo: https://api.iowen.cn/favicon/www.wolframalpha.com.png
           url: https://www.wolframalpha.com/
