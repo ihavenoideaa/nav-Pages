@@ -5,7 +5,7 @@
     {{ range .Site.Data.webstack }}
         {{ if .list }}
             {{ range .list }}
-	    <!--正文网址导航--》
+	    <!--有二级标题网址导航-->
             <!-- {{ .term }} -->
             <div class="d-flex flex-fill">
                 <h4 class="text-gray text-lg mb-4" id="{{ md5 .term }}">
@@ -26,10 +26,10 @@
 			去除 Tooltip -->
 			{{ if .qrcode }}
 			<a href="javascript:" target=""
-                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
+                            class="card no-c mb-4 umami--click--{{ .title }}" data-toggle="tooltip" data-placement="bottom" data-html="true" title="<img src='{{ .qrcode }}' width='128'>">
                         {{ else }}
                         <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}"
-                            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
+                            class="card no-c mb-4 umami--click--{{ .title }}" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .description }}">
 			{{ end }}
                             <div class="card-body">
                                 <div class="url-content d-flex align-items-center">
@@ -61,7 +61,7 @@
                                 </div>
                             </div>
                         </a>
-                        <a href="{{ .url }}" class="togo text-center text-muted is-views" data-id="689"
+                        <a href="{{ .url }}" class="togo text-center text-muted is-views umami--click--{{ .title }}" data-id="689"
                             data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
                             <i class="iconfont icon-goto"></i>
                         </a>
@@ -73,7 +73,7 @@
             <!--END {{ .term }} -->
             {{ end }}
         {{ else }}
-	    <!--常用推荐-->
+	    <!--常用推荐 没有二级标题-->
             <!-- {{ .taxonomy }} -->
             <div class="d-flex flex-fill">
                 <h4 class="text-gray text-lg mb-4"  id="{{ md5 .taxonomy }}">
