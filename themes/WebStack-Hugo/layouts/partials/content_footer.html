@@ -26,7 +26,11 @@
             </div>
             <div class="footer-inner">
 			
-                <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}</div>
+                <div class="footer-text">
+                    {{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}
+                    <span id="sitetime" style="color: #070c12; white-space: nowrap;"></span>
+                </div>
+
             </div>
         </footer>
     </div><!-- main-content end -->
