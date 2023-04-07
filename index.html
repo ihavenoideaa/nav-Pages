@@ -5338,8 +5338,13 @@
                 
             </div>
             <div class="footer-inner">
-			
-                <div class="footer-text">本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：JiAngxzgl@gmail.com <br/>© Copyright 2023 xzgl. Powered By <a href="https://github.com/shenweiyan/WebStack-Hugo">WebStack-Hugo</a> | <a href="http://beian.miit.gov.cn/">粤ICP备2023008974号</a><br/></div>
+                
+                <div class="footer-text">
+                    本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：JiAngxzgl@gmail.com <br/>© Copyright 2023 xzgl. Powered By <a href="https://github.com/shenweiyan/WebStack-Hugo">WebStack-Hugo</a> | <a target="_black" style="white-space: nowrap;" href="http://beian.miit.gov.cn/">粤ICP备2023008974号</a>
+                    <span id="sitetime" style="color: #070c12; white-space: nowrap;"></span>
+                    
+                </div>
+                
             </div>
         </footer>
     </div>
@@ -5622,6 +5627,27 @@ function switchNightMode(){
 }
 </script>
 
+<script>
+    function getTimeDiff(startTime) {
+      const now = new Date().getTime();
+      const diff = now - startTime;
+
+      const days = Math.floor(diff / (24 * 60 * 60 * 1000));
+      const hours = Math.floor((diff % (24 * 60 * 60 * 1000)) / (60 * 60 * 1000));
+      const minutes = Math.floor((diff % (60 * 60 * 1000)) / (60 * 1000));
+      const seconds = Math.floor((diff % (60 * 1000)) / 1000);
+      return { days, hours, minutes, seconds };
+    }
+
+    function updateSiteTime(startTime, elementId) {
+      const timeDiff = getTimeDiff(startTime);
+      document.getElementById(elementId).innerHTML = `网站已运行 ${timeDiff.days} 天 ${timeDiff.hours} 小时 ${timeDiff.minutes} 分钟 ${timeDiff.seconds} 秒`;
+      window.requestAnimationFrame(() => updateSiteTime(startTime, elementId));
+    }
+
+    const startTime = new Date("2023-03-01T11:17:00Z").getTime();
+    updateSiteTime(startTime, "sitetime");
+  </script>
 </body>
 </html>
 
