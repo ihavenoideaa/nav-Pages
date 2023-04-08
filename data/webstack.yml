@@ -37,116 +37,142 @@
     - term: 搜索引擎 🔍
       links:
         - title: Baidu
+          id: Baidu
           logo: https://api.iowen.cn/favicon/www.baidu.com.png
           url: https://baidu.com	
           description: 百度搜索 
         - title: Google 🪜
+          id: Google
           logo: https://api.iowen.cn/favicon/www.google.com.png
           url: https://www.google.com/	
           description: 谷歌搜索
         - title: DuckDuckGo 🪜
+          id: DuckDuckGo
           logo: https://api.iowen.cn/favicon/duckduckgo.com.png
           url: https://duckduckgo.com/	
           description: 开启不受网络追踪的搜索之旅，隐私保护搜索引擎
         - title: WolframAlpha
+          id: WolframAlpha
           logo: https://api.iowen.cn/favicon/www.wolframalpha.com.png
           url: https://www.wolframalpha.com/
           description: 世界上即时专家知识和计算的权威资源（sin x作图）
     - term: 社交平台 💬
       links:
         - title: 豆瓣
+          id: douban
           logo: https://api.iowen.cn/favicon/www.douban.com.png
           url: https://www.douban.com/
           description:  豆瓣读书、观影探索和记录
         - title: 百度贴吧
+          id: baidu-tie-ba
           logo: https://api.iowen.cn/favicon/tieba.baidu.com.png
           url: https://tieba.baidu.com/
           description:  全球领先的中文社区
         - title: Twitter 🪜
+          id: Twitter
           logo: https://api.iowen.cn/favicon/twitter.com.png
           url: https://twitter.com/
           description: 新鲜事一网打尽
     - term: 在线翻译 🔠
       links:
         - title: 有道翻译 
+          id: youdao-fanyi
           logo: https://api.iowen.cn/favicon/fanyi.youdao.com.png
           url: https://fanyi.youdao.com/
           description: 有道在线翻译
         - title: 百度翻译
+          id: baidu-fanyi
           logo: https://api.iowen.cn/favicon/fanyi.baidu.com.png
           url: https://fanyi.baidu.com/
           description: 百度在线翻译
         - title: 谷歌翻译
+          id: google-fanyi
           logo: https://api.iowen.cn/favicon/translate.google.cn.png
           url: https://translate.google.cn/
           description: 谷歌在线翻译
     - term:  邮箱	📬
       links:
         - title: 网易163邮箱
+          id: 163-email
           logo: https://api.iowen.cn/favicon/163.com.png
           url: https://mail.163.com/
           description: 网易163免费邮箱
         - title: Outlook邮箱
+          id: Outlook-email
           logo: https://api.iowen.cn/favicon/outlook.live.com.png
           url: https://outlook.live.com/
           description: 来自 Microsoft 的免费个人电子邮件
         - title: Gmail
+          id: Gmail
           logo: gmail.png
           url: https://mail.google.com/
           description: 一个帐户,畅享 Google所有服务
         - title: QQ邮箱
+          id: qq-email
           logo: https://api.iowen.cn/favicon/mail.qq.com.png
           url: https://mail.qq.com/
           description: QQ邮箱，常联系！
         - title: 126邮箱
+          id: 126-email
           logo: https://api.iowen.cn/favicon/www.126.com.png
           url: https://www.126.com/
           description: 你的专业电子邮局
     - term:  百科 🔣
       links:
         - title: WIKIPEDIA 🪜
+          id: WIKIPEDIA
           logo: https://api.iowen.cn/favicon/www.wikipedia.org.png
           url: https://www.wikipedia.org/
           description: 维基百科
         - title: 百度百科
+          id: baidu-bai-ke
           logo: https://api.iowen.cn/favicon/baike.baidu.com.png
           url: https://baike.baidu.com/
           description: 中文百科
         - title: 萌娘百科
+          id: meng-niang-bai-ke
           logo: https://api.iowen.cn/favicon/zh.moegirl.org.cn.png
           url: https://zh.moegirl.org.cn/Mainpage
           description: 二次元的百科
     - term: 云计算 ☁️
       links:
         - title: 阿里云
+          id: a-li-yun
           logo: https://api.iowen.cn/favicon/account.aliyun.com.png
           url: https://www.aliyun.com/
           description: 上云就上阿里云。
         - title: 腾讯云
+          id: teng-xun-yun
           logo: https://api.iowen.cn/favicon/cloud.tencent.com.png
           url: https://cloud.tencent.com/
           description: 产业智变，云启未来。
         - title: 华为云
+          id: hua-wei-yun
           logo: https://api.iowen.cn/favicon/huawei.com.png
           url: https://www.huaweicloud.com/
           description: 提供云计算服务+智能，见未来-华为云。
         - title: 又拍云
+          id: you-pai-yun
           logo: https://api.iowen.cn/favicon/www.upyun.com.png
           url: https://www.upyun.com/
           description: 场景化CDN，提供云存储、云处理、云安全
         - title: 搬瓦工 🪜
+          id: ban-wa-gong
           logo: 
           url: https://bandwagonhost.com/
           description: 搬瓦工vps
         - title: 天翼云
+          id: tian-yi-yun
           logo: https://api.iowen.cn/favicon/www.ctyun.cn/h5/auth.png
           url: https://www.ctyun.cn/h5/auth/
           description: 中国电信天翼云。
         - title: Vultr
+          id: Vultr
           logo: https://api.iowen.cn/favicon/www.vultr.com.png
           url: https://www.vultr.com/
           description: 只适合海外业务，机房遍布全球
         - title: Cloudflare
+          id: Cloudflare
           logo: https://api.iowen.cn/favicon/www.cloudflare.com.png
           url: https://www.cloudflare.com/zh-cn/
           description: Cloudflare 是一个全球网络，旨在让您连接到互联网的一切都安全、私密、快速和可靠。          
@@ -156,32 +182,39 @@
     - term: DevOps 🧩
       links:
         - title: GitHub 🪜
+          id: GitHub
           logo: https://api.iowen.cn/favicon/github.com.png
           url: https://github.com/
           description: GitHub 开源社区。
         - title: Docker Hub
+          id: DockerHub
           logo: https://api.iowen.cn/favicon/docker.com.png
           url: https://hub.docker.com/
           description: Docker镜像分享
         - title: Gitee
+          id: Gitee
           logo: https://api.iowen.cn/favicon/gitee.com.png
           url: https://gitee.com/
           description: Gitee是开源中国社区推出的基于Git的代码托管服务
         - title: CODING
+          id: CODING
           logo: https://api.iowen.cn/favicon/coding.net.png
           url: https://xzgl.coding.net/
           description: 腾讯云旗下一站式 DevOps 研发管理平台
         - title: CodePen
+          id: CodePen
           logo: https://api.iowen.cn/favicon/codepen.io.png
           url: https://codepen.io/pen/
           description: CodePen是面向前端设计人员和开发人员的社交开发环境
         - title: Vercel
+          id: Vercel
           logo: https://api.iowen.cn/favicon/vercel.com.png
           url: https://vercel.com/
           description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
     - term:  知识整理 📊
       links:
         - title: 腾讯文档
+          id: teng-xun-wen-dang
           logo: https://api.iowen.cn/favicon/docs.qq.com.png
           url: https://docs.qq.com/
           description: 在线文档，支持多人在线协作编辑
@@ -189,36 +222,44 @@
     - term: Awesome系列 🎆
       links:
         - title: Awesome Github 🪜
+          id: Awesome-Github
           logo: https://api.iowen.cn/favicon/github.com/sindresorhus/awesome.png
           url: https://github.com/sindresorhus/awesome
           description: Awesome资源大全系列,汇总优秀工具资源的列表	  
         - title: Awesome-CPP 🪜
+          id: Awesome-CPP
           logo: https://api.iowen.cn/favicon/github.com.png
           url: https://github.com/fffaraz/awesome-cpp
           description: C++（或 C）框架、库、资源和闪亮事物的精选列表。
         - title: Awesome-SelfHosted 🪜
+          id: Awesome-SelfHosted
           logo: https://api.iowen.cn/favicon/github.com.png
           url: https://github.com/awesome-selfhosted/awesome-selfhosted
           description: 可托管在服务器上的免费软件网络服务和Web应用程序列表
         - title: Awesome-chatgpt-api 🪜
+          id: Awesome-chatgpt-api
           logo: https://api.iowen.cn/favicon/github.com.png
           url: https://github.com/reorx/awesome-chatgpt-api
           description: 基于 ChatGPT API，且允许配置自己的 API key 的工具和应用的精选列表。
     - term: AI Products 🤖
       links:
         - title: DALL·E 2 🪜
+          id: DALL-E-2
           logo: https://api.iowen.cn/favicon/openai.com/product/dall-e-2.png
           url: https://openai.com/product/dall-e-2
           description: DALL·E 2 是一个人工智能系统，可以根据自然语言的描述创建逼真的图像和艺术作品。
         - title: ChatGPT Web 🪜
+          id: ChatGPT-Web
           logo: https://api.iowen.cn/favicon/chat.openai.com/chat.png
           url: https://chat.theb.ai/ 
           description: 相对稳定，恢复速度较快的ChatGPT国内直连版本
         - title: ChatGPT Shortcut
+          id: ChatGPT-Shortcut
           logo: https://api.iowen.cn/favicon/newzone.top/chat.png
           url: https://newzone.top/chatgpt/ 
           description: 让生产力加倍的 ChatGPT 快捷指令
         - title: 【网站推荐】收集分享一些AI工具（网站）
+          id: 
           logo: https:////i0.hdslb.com/bfs/article/banner/fabb37667ec065d4c94fbc86c2db249a993bd16d.png@117w_88h_75Q_1c.webp
           url: https://www.bilibili.com/read/cv21864354
           description: AI网址推荐（待使用体验测试）
@@ -229,50 +270,61 @@
     - term: 在线影视 🎦
       links:
         - title: 哔哩哔哩
+          id: bilibili
           logo:  https://api.iowen.cn/favicon/www.bilibili.com.png
           url: https://www.bilibili.com/
           description: Bilibili 视频弹幕网站。
         - title: 哔嘀影视
+          id: bi-di-ying-shi
           logo: https://api.iowen.cn/favicon/www.bdys01.com.png
           url: https://www.bdys01.com
           description: 主要提供大量高清的影视在线播放和资源下载
         - title: 低端影视
+          id: di-duan-ying-shi
           logo: https://api.iowen.cn/favicon/ddys.art.png
           url: https://ddys.site/
           description: 低端影视发布页
         - title: Libvio影视
+          id: Libvio-ying-shi
           logo: https://api.iowen.cn/favicon/libvio.com.png
           url: https://libvio.app/
           description: Libvio影视发布页
         - title: Gimy剧迷
+          id: Gimy-ju-mi
           logo: https://api.iowen.cn/favicon/gimy.app.png
           url: https://gimy.app/
           description: 劇迷首選線上看電視劇與節目
         - title: Youtube 🪜
+          id: Youtube
           logo: https://api.iowen.cn/favicon/www.youtube.com.png
           url: https://www.youtube.com/
           description: 油管-全球最大的视频网站 
     - term: 电影之外 🎬
       links:
         - title: 可小果英文站
+          id: ke-xiao-guo
           logo: https://api.iowen.cn/favicon/www.kexiaoguo.com.png
           url: https://www.kexiaoguo.com/
           description: 可小果美剧电影台词
         - title: Box Office Mojo
+          id: Box-Office-Mojo
           logo: https://api.iowen.cn/favicon/www.boxofficemojo.com.png
           url: https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/?area=XWW
           description:	电影票房排行榜
         - title: 烂番茄
+          id: rottentomatoes
           logo: https://api.iowen.cn/favicon/www.rottentomatoes.com.png
           url: https://www.rottentomatoes.com/
           description:	美国知名的影视评论网站 
     - term: 动漫 🎏
       links:
         - title: 樱花动漫
+          id: ying-hua-dong-man
           logo: 
           url: http://www.dmh8.com/
           description: 樱花动漫
         - title: OmoFun
+          id: OmoFun
           logo: https://api.iowen.cn/favicon/www.omofun.top.png
           url: https://www.omofun.top/
           description:
@@ -282,90 +334,111 @@
     - term: 分享云盘 💠
       links:
         - title: 蓝凑云盘
+          id: lan-cou-yun-pan
           logo: https://api.iowen.cn/favicon/pc.woozooo.com.png
           url: https://pc.woozooo.com/account.php?action=login&ref=/mydisk.php
           description: 	为用户而变革，越简单越好，越快越好 ！
         - title: 百度网盘
+          id: baidu-yun-pan
           logo: https://api.iowen.cn/favicon/pan.baidu.com.png
           url: http://pan.baidu.com/
           description: https://pan.baidu.com/.
         - title: 阿里云盘
+          id: a-li-yun-pan
           logo: https://api.iowen.cn/favicon/www.aliyundrive.com.png
           url: https://www.aliyundrive.com/
           description: 阿里云盘，你的数字世界。
         - title: 天翼云盘
+          id: tian-yi-yun-pan
           logo: https://api.iowen.cn/favicon/cloud.189.cn.png
           url: https://cloud.189.cn/
           description: 家庭云|网盘|文件备份|资源分享。
         - title: 谷歌云盘
+          id: Google-yun-pan
           logo: https://api.iowen.cn/favicon/drive.google.com/.png
           url: https://drive.google.com/drive/my-drive
           description: 个人云存储和文件共享平台
         - title: MEGA云盘
+          id: MEGA-yun-pan
           logo: https://api.iowen.cn/favicon/mega.nz/.png
           url: https://mega.nz/#fm/X1EnRYII
           description: MEGA将云存储、文件和文件夹共享、聊天、会议等功能整合到一处
         - title: OneDrive
+          id: OneDrive
           logo: https://p.sfx.ms/images/favicon.ico
           url: https://onedrive.live.com/
           description: Microsoft的云存储服务
         - title: 坚果云
+          id: jian-guo-yun
           logo: https://api.iowen.cn/favicon/www.jianguoyun.com.png
           usrl: https://www.jianguoyun.com/
           description: 坚果云官网。
     - term: 图片模型 🛤️️️
       links:
         - title: Pexels 
+          id: Pexels
           logo: https://api.iowen.cn/favicon/www.pexels.com.png
           url: https://www.pexels.com/zh-cn/
           description: 才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频
         - title: Wallhaven
+          id: Wallhaven
           logo: https://api.iowen.cn/favicon/wallhaven.cc.png
           url: https://wallhaven.cc/
           description:	最好的壁纸分享平台
         - title: Pixiv 🪜
+          id: Pixiv
           logo: https://api.iowen.cn/favicon/www.pixiv.net.png
           url: https://www.pixiv.net/
           description: 以插图、漫画和小说、艺术为中心的社交网络服务里的虚拟社区网站 
         - title: Unsplash
+          id: Unsplash
           logo: https://api.iowen.cn/favicon/unsplash.com.png
           url: https://unsplash.com/
           description:	免费无版权的摄影作品、图片
         - title: 图虫网
+          id: tuchongwang
           logo: https://api.iowen.cn/favicon/tuchong.com.png
           url: https://tuchong.com/
           description:	优质摄影师交流社区，超过2000万摄影爱好者在此学习交流
         - title: Deviantart 🪜
+          id: Deviantart
           logo: https://api.iowen.cn/favicon/www.deviantart.com.png
           url: https://www.deviantart.com/
           description:	艺术画作、3D模型、插画分享 
         - title: Cool Backgrounds
+          id: Cool-Backgrounds
           logo: https://api.iowen.cn/favicon/coolbackgrounds.io.png
           url: https://coolbackgrounds.io/
           description: 生成引人注目的、色彩丰富的背景图像的工具
     - term: 音乐资源 🎵
       links:        
         - title: 下歌吧
+          id: xia-ge-ba
           logo: https://api.iowen.cn/favicon/music.y444.cn.png
           url: https://music.y444.cn/#/
           description:	音乐较齐全，flac格式音乐下载
         - title: MyFreeMP3
+          id: MyFreeMP3
           logo: https://api.iowen.cn/favicon/tool.liumingye.cn/music.png
           url: https://tool.liumingye.cn/music/#/
           description: 音乐在线听、下载（版权受限）
         - title: QQ音乐
+          id: qqmusic
           logo: https://api.iowen.cn/favicon/y.qq.com.png
           url: https://y.qq.com/
           description: 听我想听
         - title: 网易云音乐
+          id: 163music
           logo: https://api.iowen.cn/favicon/music.163.com.png
           url: https://music.163.com/
           description: 音乐的力量
         - title: Spotify
+          id: Spotify
           logo: https://api.iowen.cn/favicon/open.spotify.com.png
           url: https://open.spotify.com/
           description:	Listen to Your Favorite Artists with Uninterrupted Music.
         - title: 音乐直链搜索
+          id: yin-yue-zhi-lian
           logo: https://api.iowen.cn/favicon/music.liuzhijin.cn.png
           url: https://music.liuzhijin.cn/
           description:	特制多站合一音乐搜索解决方案 
@@ -373,36 +446,44 @@
     - term: 影视资源 🎦
       links:  
         - title: 布谷4K电影世界
+          id: bu-gu-tv
           logo: https://api.iowen.cn/favicon/www.bugutv.net.png
           url: https://www.bugutv.net/
           description: 免费分享最新4K电影、4K美剧(部分VIP)
         - title: 桔子蓝光网
+          id: ju-zi-lan-guang-wang
           logo: https://api.iowen.cn/favicon/www.juzibd.com.png
           url: https://www.juzibd.com/
           description: 4K UHD蓝光原盘(VIP)
     - term: 图标符号 👽
       links:
         - title: Iconfont
+          id: Iconfont
           logo: https://api.iowen.cn/favicon/www.iconfont.cn.png
           url: http://www.iconfont.cn/
           description: 阿里巴巴矢量图标库。
         - title: Font Awesome Free
+          id: Font-Awesome
           logo: https://api.iowen.cn/favicon/fontawesome.com.png
           url: https://fontawesome.com/search?o=r&m=free
           description: Font Awesome图标代码获取  
         - title: 一为Favicon图标API
+          id: iowen-Api
           logo: https://api.iowen.cn/favicon/www.iowen.cn.png
           url: https://api.iowen.cn/doc/favicon.html
           description: 根据URL地址获取网站的图标
         - title: Teamspeak Icons
+          id: Teamspeak-Icons
           logo: https://api.iowen.cn/favicon/tsicons.com.png
           url: https://tsicons.com/
           description: teamspeak3的图标资源	
         - title: 🤣Emoji表情大全
+          id: Emoji-da-quan
           logo: https://api.iowen.cn/favicon/emojixd.com.png
           url: https://emojixd.com/
           description: EmojiXD是一本线上Emoji百科全书📚
         - title: 颜文字大全
+          id: yan-wen-zi-da-quan
           logo: https://api.iowen.cn/favicon/hehuan.co.png
           url: http://www.hehuan.co/
           description: 颜文字分享
@@ -412,42 +493,52 @@
     - term: 文件处理 💾
       links:
         - title: Ezgif.com
+          id: Ezgif
           logo: https://api.iowen.cn/favicon/ezgif.com.png
           url: https://ezgif.com/
           description: Ezgif.com 是一个简单的在线 GIF 制作工具和用于基本动画 GIF 编辑的工具集。	
         - title: Convertio文件转换器
+          id: Convertio
           logo: https://api.iowen.cn/favicon/convertio.co.png
           url: https://convertio.co/zh/
           description: 文件格式转换：视频、图片 
         - title: CloudConvert
+          id: CloudConvert
           logo: https://api.iowen.cn/favicon/cloudconvert.com.png
           url: https://cloudconvert.com/
           description: CloudConvert是一个在线文件转换器。我们支持几乎所有音频、视频、文档、电子书、档案、图像、电子表格和演示文稿格式。要开始，请使用下面的按钮并从您的计算机中选择要转换的文件。		  
         - title: XAudioPro
+          id: XAudioPro
           logo: https://api.iowen.cn/favicon/www.xaudiopro.com/easyedit.png
           url: https://www.xaudiopro.com/easyedit/
           description: 音频转码、音频合并、音频剪辑
         - title: Online Audio Converter
+          id: Online-Audio-Converter
           logo: https://api.iowen.cn/favicon/online-audio-converter.com.png
           url: https://online-audio-converter.com/	
           description: 视频音频提取
         - title: ACONVERT.COM
+          id: ACONVERT
           logo: https://api.iowen.cn/favicon/www.aconvert.com.png
           url: https://www.aconvert.com/cn/
           description: 在线转换各类PDF，文档，电子书，图像，图标，视频，音频和压缩文件(<40M) 
         - title: 迅捷视频
+          id: xun-jie-shi-ping
           logo: https://api.iowen.cn/favicon/www.xunjieshipin.com.png
           url: https://www.xunjieshipin.com/online-converter
           description: 视频音频格式处理（<20M）
         - title: 在线工具箱
+          id: zai-xian-gong-ju-xiang
           logo: https://api.iowen.cn/favicon/tool.lu.png
           url: https://tool.lu/
           description: 图片转latex、日期计算、html/css/js处理、进制转换、crontab、ascii画、摩斯密码等等
         - title: PDF24 Tools
+          id: PDF24-Tools
           logo: https://api.iowen.cn/favicon/tools.pdf24.org/zh.png
           url: https://tools.pdf24.org/zh/
           description: 免费且易于使用的在线PDF工具
         - title: ALL TO ALL
+          id: ALL-TO-ALL
           logo: https://api.iowen.cn/favicon/www.alltoall.net.png
           url: https://www.alltoall.net/
           description: PDF转Word、logo转矢量、自动去背景、压缩格式转换、不常见图片格式转换、表格格式转换
@@ -455,30 +546,37 @@
     - term: 图片处理 🏙️
       links:
         - title: Photopea
+          id: Photopea
           logo: https://api.iowen.cn/favicon/www.photopea.com.png
           url: https://www.photopea.com/
           description: Oline Photo Editor 在线PS
         - title: 稿定设计
+          id: gao-ding-she-ji
           logo: https://api.iowen.cn/favicon/www.uupoop.com.png
           url: https://www.uupoop.com/#/
           description: 在线PS精简版/专业版（需登录）
         - title: 改图神器/在线PS
+          id: gai-tu-shen-qi
           logo: https://api.iowen.cn/favicon/www.logosc.cn.png
           url: https://www.logosc.cn/online-ps
           description: 在线PS精简版，一键抠图、去水印（需登录，次数少）
         - title: Ezgif.com
+          id: Ezgif
           logo: https://api.iowen.cn/favicon/ezgif.com.png
           url: https://ezgif.com/
           description: GIF制作、视频裁剪	
         - title: TinyPNG
+          id: TinyPNG
           logo: https://api.iowen.cn/favicon/tinypng.com.png
           url: https://tinypng.com/
           description: WebP、PNG和JPEG压缩
         - title: I💙IMAGE
+          id: ILoveIMAGE
           logo: https://api.iowen.cn/favicon/www.iloveimg.com.png
           url: https://www.iloveimg.com/convert-to-jpg/webp-to-jpg
           description: Convert WEBP to JPG(Limit 30 images)
         - title: 路过图床
+          id: lu-guo-tu-chuang
           logo: https://api.iowen.cn/favicon/imgse.com.png
           url: https://imgse.com/
           description: 免费公共图床，全球CDN加速，支持外链，原图保存，批量上传，最大单张支持10 MB
@@ -486,6 +584,7 @@
     - term:  生活类 🧭
       links:
         - title: Windy
+          id: Windy
           logo: https://api.iowen.cn/favicon/www.windy.com.png
           url: https://www.windy.com/zh/
           description: 世界地图天气预报和风向地图
@@ -493,30 +592,32 @@
     - term: 其他工具 🔧
       links:
         - title: 虚拟手机号码
+          id: xu-ni-hao-ma
           logo: https://api.iowen.cn/favicon/sms-activate.org/cn/.png
           url: https://sms-activate.org/cn/
           description: 使用虚拟手机号码接收短信验证码
         - title: 网页rgb颜色对照查询工具
+          id: wang-ye-rgb-cha-xun
           logo: https://api.iowen.cn/favicon/yanse.33231.com.png
           url: http://yanse.33231.com/
           description: RGB颜色值与十六进制颜色码转换工具
         - title: 临时邮箱
+          id: ling-shi-you-xiang
           logo: https://api.iowen.cn/favicon/linshiyouxiang.net.png
           url: https://linshiyouxiang.net/
           description: 提供临时邮箱，一次性邮箱，是完全匿名和安全的
         - title: 虚拟信用卡
+          id: xu-ni-xin-yong-ka
           logo: https://api.iowen.cn/favicon/cardgenerator.org.png
           url: https://cardgenerator.org/
           description: 生成信用卡号码，包括在线注册和测试所需的所有详细信息。 
-        - title: 在线扒站工具
-          logo: https://api.iowen.cn/favicon/bazhan.wang.png
-          url: https://bazhan.wang/
-          description: 一键将指定网页的HTML、CSS、JS等前端资源打包下载
         - title: 九蛙工具箱
+          id: jiu-wa-gong-ju-xiang
           logo: https://api.iowen.cn/favicon/www.jiuwa.net.png
           url: https://www.jiuwa.net/
           description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成
         - title: 工具哇！
+          id: gong-ju-wa
           logo: https://api.iowen.cn/favicon/toolwa.com.png
           url: https://toolwa.com/
           description: 娱乐、便民、站长、开发工具集
@@ -527,28 +628,34 @@
     - term:  插件 🐒
       links:
         - title: CrxDL.COM
+          id: CrxDL
           logo: https://api.iowen.cn/favicon/crxdl.com.png
           url: https://crxdl.com/
           description: 下载Chrome扩展插件Crx离线安装包
         - title: Tampermonkey
+          id: Tampermonkey
           logo: https://api.iowen.cn/favicon/www.tampermonkey.net.png
           url: https://www.tampermonkey.net/
           description: 脚本管理器
         - title: GreasyFork
+          id: GreasyFork
           logo: https://api.iowen.cn/favicon/greasyfork.org.png
           url: https://greasyfork.org/zh-CN
           description: 提供用户脚本的网站
         - title: 油小猴
+          id: you-xiao-hou
           logo: https://api.iowen.cn/favicon/www.youxiaohou.com.png
           url: https://www.youxiaohou.com/
           description: 一个汇聚了各种黑科技的小站
     - term: 其他🤿
       links:
         - title: SteamDB
+          id: SteamDB
           logo: https://api.iowen.cn/favicon/steamdb.info.png
           url: https://steamdb.info/
           description: Steam上所有内容的数据库   
         - title: 下载链接
+          id: xia-zai-lian-jie
           logo: xiazai.svg
           url: ./resource
           description: 拓展资源下载链接收藏
@@ -560,25 +667,31 @@
       links:
         - title: 我不是咕咕鸽
           url: https://blog.laoda.de/
+          id: guguge-Blog
           logo: https://api.iowen.cn/favicon/laoda.de.png
           description: VPS折腾不完全记录
         - title: 思有云-IOIOX
           url: https://www.ioiox.com/
+          id: IOIOX-Blog
           logo: https://api.iowen.cn/favicon/ioiox.com.png
           description: 以不折腾为目标的折腾，才是折腾的最高境界！
         - title: 木木木木木
           url: https://immmmm.com/
+          id: immmmm-Blog
           logo: https://api.iowen.cn/favicon/immmmm.com.png
           description: 大木老师的博客        
         - title: Elizen
           url: https://elizen.me/
+          id: Elizen-Blog
           logo: 
           description: There is only one thing in the world worse than being talked about, and that is not being talked about.
         - title: 大大的小蜗牛
           url: https://eallion.com/
+          id: eallion-Blog
           logo: https://api.iowen.cn/favicon/eallion.com.png
           description: 机会总是垂青于有准备的人
         - title: Leonus
           url: https://blog.leonus.cn/
+          id: leonus-Blog
           logo: https://api.iowen.cn/favicon/blog.leonus.cn/.png
           description: 进一寸有进一寸的欢喜。        
