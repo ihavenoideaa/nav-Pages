@@ -190,7 +190,7 @@
           url: https://newzone.top/chatgpt/ 
           description: 让生产力加倍的 ChatGPT 快捷指令
         - title: 【网站推荐】收集分享一些AI工具（网站）
-          logo: https:////i0.hdslb.com/bfs/article/banner/fabb37667ec065d4c94fbc86c2db249a993bd16d.png@117w_88h_75Q_1c.webp
+          logo: 
           url: https://www.bilibili.com/read/cv21864354
           description: AI网址推荐（待使用体验测试）
 - taxonomy: 影视观看
@@ -198,7 +198,7 @@
   list:
     - term: 在线影视 🎦
       links:
-        - title: 哔哩哔哩 (゜-゜)つロ 干杯~
+        - title: 哔哩哔哩 (゜—゜)つロ 干杯~
           logo:  https://api.iowen.cn/favicon/www.bilibili.com.png
           url: https://www.bilibili.com/
           description: Bilibili 视频弹幕网站。
