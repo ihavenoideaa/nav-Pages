@@ -11,7 +11,7 @@
     </div>
         <!--获取内容列表-->
     <div class="row" id="umamilist">
-        loading...
+        <div style="margin: 0 0 21px 3rem;">Loading...</div>
     </div>
 
     {{ range .Site.Data.webstack }}
@@ -88,21 +88,6 @@
     
         {{ end }}
     {{ end }}
-    <!--根据id找其他信息-->
-    aaa
-    {{ range .Site.Data.webstack }}
-        {{ if .list }}
-            {{ range .list }}
-                {{ range $link := .links }}
-                    {{ if eq $link.id "Baidu" }}
-                        {{ $title := $link.url }}
-                        <p>xxx{{ $title }}</p>
-                    {{ end }}
-                {{ end }} 
-            {{ end }} 
-        {{ end }}     
-    {{ end }} 
-     <!--根据id找其他信息 end-->
     <h4 class="text-gray text-lg mb-4">
         <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
     </h4>

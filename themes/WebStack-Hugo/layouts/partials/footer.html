@@ -145,12 +145,12 @@ function switchNightMode(){
 
 <!--统计超链接点击次数-->
 <script> 
-  const umamiLinks = document.querySelectorAll('a.umami'); 
-  umamiLinks.forEach(link => { link.addEventListener('click', () => {
-  const title = link.getAttribute('data-link-name');
-  const url = link.getAttribute('href'); 
-  umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') }); }); }); 
- </script>
- 
+    document.addEventListener("DOMContentLoaded", () => {
+    const umamiLinks = document.querySelectorAll('a.umami'); 
+    umamiLinks.forEach(link => { link.addEventListener('click', () => {
+    const title = link.getAttribute('data-link-name');
+    const url = link.getAttribute('href'); 
+    umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') }); }); });});
+</script>
 </body>
 </html>

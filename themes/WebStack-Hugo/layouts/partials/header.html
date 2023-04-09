@@ -33,5 +33,79 @@
     <!-- end 百度统计 --> 
     <!--umami 统计-->
     <script async defer data-website-id="f366bda0-02fb-444e-87b5-a95e432acdcc" src="https://umami.status.xzgljiang.com/umami.js"></script>
+     <!-- 点击次数排行 -->
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch('https://umami.api.xzgl.site/api/getEvents')
+            .then(response => response.json())
+            .then(resdata => {
+                var data=resdata
+                var result = ''
+                for(var i=0;i < 5;i++){ 
+                    let linktitle = data[i].x.split('-')[0];
+                    let linkurl   = data[i].x.split('-')[1];
+                    var iconlink="https://api.iowen.cn/favicon/"+linkurl.split('//')[1]+".png";
+                    result+=`
+                        <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                            <div class="url-body default">
+                                <a href="${ linkurl }" target="_blank" data-id="" data-url="${ linkurl }" class="card no-c mb-4 umamii" data-link-name="${ linktitle }">
+                                    <div class="card-body">
+                                        <div class="url-content d-flex align-items-center">
+                                            <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                                {{ if $.Site.Params.defaultLogo }}
+                                                    <img class="lazy" src="${ iconlink }" data-src="${ iconlink }" onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="${ linktitle }">
+                                                {{ else }}
+                                                    <img class="lazy" src="${ iconlink }" data-src="${ iconlink }" onerror="javascript:this.src='${ iconlink }'" alt="${ linktitle }">
+                                                {{ end }}
+                                            </div>
+                                                <div class="url-info flex-fill">
+                                                    <div class="text-sm overflowClip_1">
+                                                        <strong>${ linktitle }</strong>
+                                                    </div>
+                                                    <p class="overflowClip_1 m-0 text-muted text-xs">访问次数: ${ data[i].y}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="${ linkurl }" class="togo text-center text-muted is-views umamii" data-link-name="${ linktitle }" data-id="689" data-placement="right" title="直达" rel="nofollow">
+                                    <i class="iconfont icon-goto"></i>
+                                </a>
+                            </div>
+                        </div>	
+                    `
+                }
+                var umamiDom = document.querySelector('#umamilist');
+                umamiDom.innerHTML = result
 
+                                // 使用 Promise 等待所有链接都生成完成后再初始化 umami 分析工具代码
+                Promise.all(Array.from(document.querySelectorAll('a.umamii')).map(link => {
+                    return new Promise((resolve, reject) => {
+                        link.addEventListener('click', () => {
+                            const title = link.getAttribute('data-link-name');
+                            const url = link.getAttribute('href');
+                            // 发送 umami 统计请求
+                            umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') });
+                        });
+
+                        resolve();
+                    });
+                })).then(() => {
+                    // 所有链接都已经添加完毕，可以初始化 umami 分析工具
+                    //umami.init('your-umami-website-id');
+                });
+            })
+            .catch(error => {
+                console.error('API 数据读取失败', error);
+                // 执行适当的错误处理操作
+                var result = `<div style="color:darkgray; margin: -21px 0 21px 3rem;">
+                    ERROR: API 数据获取失败
+                    <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
+                    </div>`
+                var umamiDom = document.querySelector('#umamilist');
+                umamiDom.innerHTML = result
+            });
+            
+        });
+    </script>
+    <!-- 点击次数排行 end-->
 </head>
