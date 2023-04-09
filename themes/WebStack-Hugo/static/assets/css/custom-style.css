@@ -106,7 +106,9 @@ footer.main-footer .footer-text a:hover {
     background-color: #d8d8d8;
 }
 
-
+/*网站运行事时间*/
+.run-time{color: #007bff; white-space: nowrap;}
+.run-time:hover{color:#30864f}
 
 
 
