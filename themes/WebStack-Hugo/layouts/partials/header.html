@@ -41,7 +41,7 @@
             .then(resdata => {
                 var data=resdata
                 var result = ''
-                for(var i=0;i < 5;i++){ 
+                for(var i=0;i < 10;i++){ 
                     let linktitle = data[i].x.split('-')[0];
                     let linkurl   = data[i].x.split('-')[1];
                     var iconlink="https://api.iowen.cn/favicon/"+linkurl.split('//')[1]+".png";
@@ -100,6 +100,7 @@
                 var result = `<div style="color:darkgray; margin: -21px 0 21px 3rem;">
                     ERROR: API 数据获取失败
                     <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
+                    <a style="color:darkgray; text-decoration:underline;" href="https://umami.api.xzgl.site/api/getEvents">检查</a>
                     </div>`
                 var umamiDom = document.querySelector('#umamilist');
                 umamiDom.innerHTML = result
