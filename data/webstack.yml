@@ -2,35 +2,7 @@
 
 - taxonomy: 常用导航 💙
   icon: far fa-star
-  links: 
-    - title: Google
-      logo: https://api.iowen.cn/favicon/www.google.com.png
-      url: https://www.google.com/
-      description:
-    - title: GitHub 
-      logo: https://api.iowen.cn/favicon/github.com.png
-      url: https://github.com/
-      description:
-    - title: Docker Hub
-      logo: https://api.iowen.cn/favicon/docker.com.png
-      url: https://hub.docker.com/
-      description:
-    - title: 有道翻译
-      logo: https://api.iowen.cn/favicon/fanyi.youdao.com.png
-      url: https://fanyi.youdao.com/
-      description:
-    - title: 网易163邮箱
-      logo: https://api.iowen.cn/favicon/163.com.png
-      url: https://mail.163.com/
-      description: 
-    - title: 哔哩哔哩 (゜-゜)つロ 干杯~
-      logo: https://api.iowen.cn/favicon/www.bilibili.com.png
-      url: https://www.bilibili.com/
-      description: 
-    - title: ‎Apple Music
-      logo: https://api.iowen.cn/favicon/music.apple.com.png
-      url: https://music.apple.com/cn/browse
-      description:
+
 - taxonomy: 网址导航
   icon: far fa-bookmark
   list:
@@ -226,7 +198,7 @@
   list:
     - term: 在线影视 🎦
       links:
-        - title: 哔哩哔哩
+        - title: 哔哩哔哩 (゜-゜)つロ 干杯~
           logo:  https://api.iowen.cn/favicon/www.bilibili.com.png
           url: https://www.bilibili.com/
           description: Bilibili 视频弹幕网站。

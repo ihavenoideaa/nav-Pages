@@ -36,12 +36,46 @@
      <!-- 点击次数排行 -->
     <script>
         document.addEventListener("DOMContentLoaded", () => {
+            // 收藏列表 var collectResult
+            var collectResult =`
+                {{ if $.Site.Params.collectShow }}
+                    {{ range first $.Site.Params.collectCount .Site.Data.collect }}
+                    <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                            <div class="url-body default">
+                                <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4 umamii" data-link-name="{{ .title }}">
+                                    <div class="card-body">
+                                        <div class="url-content d-flex align-items-center">
+                                            <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                                {{ if $.Site.Params.defaultLogo }}
+                                                    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}" onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="{{ .title }}">
+                                                {{ else }}
+                                                    <img class="lazy" src="{{ .logo }}" data-src="{{ .logo }}" onerror="javascript:this.src='{{ .logo }}'" alt="{{ .title }}">
+                                                {{ end }}
+                                            </div>
+                                                <div class="url-info flex-fill">
+                                                    <div class="text-sm overflowClip_1">
+                                                        <strong>{{ .title }}</strong>
+                                                    </div>
+                                                    <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="{{ .url }}" class="togo text-center text-muted is-views umamii" data-link-name="{{ .title }}" data-id="689" data-placement="right" title="直达" rel="nofollow">
+                                    <i class="iconfont icon-goto"result></i>
+                                </a>
+                            </div>
+                        </div>	
+                    {{ end }}
+                {{ end }}`
+
+            // api 数据处理
             fetch('https://umami.api.xzgl.site/api/getEvents')
             .then(response => response.json())
             .then(resdata => {
                 var data=resdata
                 var result = ''
-                for(var i=0;i < 10;i++){ 
+                for(var i=0;i < 5;i++){ 
                     let linktitle = data[i].x.split('-')[0];
                     let linkurl   = data[i].x.split('-')[1];
                     var iconlink="https://api.iowen.cn/favicon/"+linkurl.split('//')[1]+".png";
@@ -68,14 +102,15 @@
                                     </div>
                                 </a>
                                 <a href="${ linkurl }" class="togo text-center text-muted is-views umamii" data-link-name="${ linktitle }" data-id="689" data-placement="right" title="直达" rel="nofollow">
-                                    <i class="iconfont icon-goto"></i>
+                                    <i class="iconfont icon-goto"result></i>
                                 </a>
                             </div>
                         </div>	
                     `
                 }
                 var umamiDom = document.querySelector('#umamilist');
-                umamiDom.innerHTML = result
+                var resultALL = result+collectResult
+                umamiDom.innerHTML = resultALL
 
                                 // 使用 Promise 等待所有链接都生成完成后再初始化 umami 分析工具代码
                 Promise.all(Array.from(document.querySelectorAll('a.umamii')).map(link => {
@@ -97,13 +132,14 @@
             .catch(error => {
                 console.error('API 数据读取失败', error);
                 // 执行适当的错误处理操作
-                var result = `<div style="color:darkgray; margin: -21px 0 21px 3rem;">
-                    ERROR: API 数据获取失败
+                var result = `<div style="color:darkgray; margin-left: 1rem;">ERROR: API 数据获取失败
                     <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
-                    <a style="color:darkgray; text-decoration:underline;" href="https://umami.api.xzgl.site/api/getEvents">检查</a>
-                    </div>`
+                    <a style="color:darkgray; text-decoration:underline;" target="_blank" href="https://umami.api.xzgl.site/api/getEvents">检查</a></div>`
+                var resultALL = collectResult
                 var umamiDom = document.querySelector('#umamilist');
-                umamiDom.innerHTML = result
+                umamiDom.innerHTML = collectResult
+                var errDom = document.querySelector('#apierror');
+                errDom.innerHTML = result
             });
             
         });

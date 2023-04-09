@@ -1,0 +1,20 @@
+- title: GitHub 🪜 
+  logo: https://api.iowen.cn/favicon/github.com.png
+  url: https://github.com/
+  description:
+- title: Docker Hub
+  logo: https://api.iowen.cn/favicon/docker.com.png
+  url: https://hub.docker.com/
+  description:
+- title: 有道翻译
+  logo: https://api.iowen.cn/favicon/fanyi.youdao.com.png
+  url: https://fanyi.youdao.com/
+  description:
+- title: 哔哩哔哩 (゜-゜)つロ 干杯~
+  logo: https://api.iowen.cn/favicon/www.bilibili.com.png
+  url: https://www.bilibili.com/
+  description: 
+- title: Apple Music
+  logo: https://api.iowen.cn/favicon/music.apple.com.png
+  url: https://music.apple.com/cn/browse
+  description:
