@@ -72,8 +72,8 @@
                 var data=resdata
                 var result = ''
                 for(var i=0;i < 5;i++){ 
-                    let linktitle = data[i].x.split('-')[0];
-                    let linkurl   = data[i].x.split('-')[1];
+                    let linktitle = data[i].x.split('*')[0];
+                    let linkurl   = data[i].x.split('*')[1];
                     var iconlink="https://api.iowen.cn/favicon/"+linkurl.split('//')[1]+".png";
                     result+=`
                         <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
@@ -114,7 +114,7 @@
                             const title = link.getAttribute('data-link-name');
                             const url = link.getAttribute('href');
                             // 发送 umami 统计请求
-                            umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') });
+                            umami.trackEvent(`${title}*${url}`, { value: link.getAttribute('link-click') });
                         });
 
                         resolve();

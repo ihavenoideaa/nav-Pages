@@ -198,7 +198,7 @@
   list:
     - term: 在线影视 🎦
       links:
-        - title: 哔哩哔哩 (゜—゜)つロ 干杯~
+        - title: 哔哩哔哩 (゜-゜)つロ 干杯~
           logo:  https://api.iowen.cn/favicon/www.bilibili.com.png
           url: https://www.bilibili.com/
           description: Bilibili 视频弹幕网站。
