@@ -45,4 +45,4 @@ publishDir            = "public"					# 站点静态文件保存目录
     unsafe = true
 
 [params.footer]
-    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：JiAngxzgl@gmail.com <br/>&copy; Copyright 2023 xzgl. Powered By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | <a target="_black" style="white-space: nowrap;" href="http://beian.miit.gov.cn/">粤ICP备2023008974号</a> '
+    copyright = '本站内容源自互联网，如有内容侵犯了你的权益，请联系删除相关内容，联系邮箱：linxzgl@gmail.com &nbsp;<a target="_blank" href="https://github.com/ihavenoideaa/nav-Pages"><i style="font-size:0.8rem;margin-right:2px" class="fas fa-code"></i>本站源码</a> <br/>&copy; Copyright 2023 xzgl. Powered By [WebStack-Hugo](https://github.com/shenweiyan/WebStack-Hugo) | <a target="_black" style="white-space: nowrap;" href="http://beian.miit.gov.cn/">粤ICP备2023008974号</a> | '
