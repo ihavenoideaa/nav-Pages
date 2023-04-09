@@ -12,20 +12,20 @@ publishDir            = "public"					# 站点静态文件保存目录
     author        = "shenweiyan"
     description   = "xzgl 导航小站"
     siteurl       = "./"
-    upload        = "../"  # 左侧导航栏的"网站提交"
+    upload        = "../"                                               # 左侧导航栏的"网站提交"
     leisure       = "../leisure"
-    about         = "https://shumlab.com/cookbook/webstack-hugo"	# 左侧导航栏的"关于导航"页面(./about)
+    about         = "https://shumlab.com/cookbook/webstack-hugo"	    # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
-    enablePreLoad = true					# 网站完全打开前预加载动画
-    textPreLoad   = ">>> Document >>>"				# 预加载的动画文字, 只有当enablePreLoad=true时生效
-    expandSidebar = false					# 默认展开左侧边导航栏
+    enablePreLoad = true					                            # 网站完全打开前预加载动画
+    textPreLoad   = ">>> Document >>>"				                    # 预加载的动画文字, 只有当enablePreLoad=true时生效
+    expandSidebar = false					                            # 默认展开左侧边导航栏
     logosPath     = "assets/images/"			# 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/cat.png"		# logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
-    nightMode     = false					# 默认站点为深色(夜间)模式
+    nightMode     = false					    # 默认站点为深色(夜间)模式
 	
 [params.seo]    
     baiduhmid     = 'efccc04cb44fc49faddac5876180b369'		# 百度统计 hm.src 的 ID
-    baiduSiteVer  = 'codeva-cCAOSG8MBO'				# 百度HTML标签验证(baidu-site-verification)
+    baiduSiteVer  = 'codeva-cCAOSG8MBO'				        # 百度HTML标签验证(baidu-site-verification)
 
 [params.qweather]
     key = "085791e805a24491b43b06cf58ab31e7"
@@ -33,7 +33,7 @@ publishDir            = "public"					# 站点静态文件保存目录
 [params.images]
     favicon           = "assets/images/cat.jpg"
     searchImageL      = "assets/images/bg-light.jpg"		# 搜索部分浅色背景图
-    searchImageD      = "assets/images/bg-dark.jpg"		# 搜索部分深色背景图
+    searchImageD      = "assets/images/bg-dark.jpg"		    # 搜索部分深色背景图
     logoExpandLight   = "assets/images/bt8-expand.png"
     logoExpandDark    = "assets/images/bt8-expand.png"
     logoCollapseLight = "assets/images/cat.png"
