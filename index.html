@@ -56,15 +56,10 @@
                                                         <strong>GitHub 🪜</strong>
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                            </div></div></div></a>
                                 <a href="https:\/\/github.com\/" class="togo text-center text-muted is-views umamii" data-link-name="GitHub 🪜" data-id="689" data-placement="right" title="直达" rel="nofollow">
                                     <i class="iconfont icon-goto"result></i>
-                                </a>
-                            </div>
-                        </div>	
+                                </a></div> </div>	
                     
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                             <div class="url-body default">
@@ -81,15 +76,10 @@
                                                         <strong>Docker Hub</strong>
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                            </div></div></div></a>
                                 <a href="https:\/\/hub.docker.com\/" class="togo text-center text-muted is-views umamii" data-link-name="Docker Hub" data-id="689" data-placement="right" title="直达" rel="nofollow">
                                     <i class="iconfont icon-goto"result></i>
-                                </a>
-                            </div>
-                        </div>	
+                                </a></div> </div>	
                     
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                             <div class="url-body default">
@@ -106,15 +96,10 @@
                                                         <strong>有道翻译</strong>
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                            </div></div></div></a>
                                 <a href="https:\/\/fanyi.youdao.com\/" class="togo text-center text-muted is-views umamii" data-link-name="有道翻译" data-id="689" data-placement="right" title="直达" rel="nofollow">
                                     <i class="iconfont icon-goto"result></i>
-                                </a>
-                            </div>
-                        </div>	
+                                </a></div> </div>	
                     
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                             <div class="url-body default">
@@ -131,15 +116,10 @@
                                                         <strong>哔哩哔哩 \(゜\-゜\)つロ 干杯~</strong>
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                            </div></div></div></a>
                                 <a href="https:\/\/www.bilibili.com\/" class="togo text-center text-muted is-views umamii" data-link-name="哔哩哔哩 (゜-゜)つロ 干杯~" data-id="689" data-placement="right" title="直达" rel="nofollow">
                                     <i class="iconfont icon-goto"result></i>
-                                </a>
-                            </div>
-                        </div>	
+                                </a></div> </div>	
                     
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                             <div class="url-body default">
@@ -156,18 +136,14 @@
                                                         <strong>Apple Music</strong>
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                            </div></div></div></a>
                                 <a href="https:\/\/music.apple.com\/cn\/browse" class="togo text-center text-muted is-views umamii" data-link-name="Apple Music" data-id="689" data-placement="right" title="直达" rel="nofollow">
                                     <i class="iconfont icon-goto"result></i>
-                                </a>
-                            </div>
-                        </div>	
-                    
-                `
-
+                                </a></div> </div>	
+                    `
+            var umamiDom = document.querySelector('#umamilist');
+            var errDom = document.querySelector('#apierror');
+            umamiDom.innerHTML = collectResult 
             
             fetch('https://umami.api.xzgl.site/api/getEvents')
             .then(response => response.json())
@@ -205,11 +181,10 @@
                         </div>	
                     `
                 }
-                var umamiDom = document.querySelector('#umamilist');
                 var resultALL = result+collectResult
                 umamiDom.innerHTML = resultALL
-
-                                
+                errDom.innerHTML=''
+                
                 Promise.all(Array.from(document.querySelectorAll('a.umamii')).map(link => {
                     return new Promise((resolve, reject) => {
                         link.addEventListener('click', () => {
@@ -232,10 +207,6 @@
                 var result = `<div style="color:darkgray; margin-left: 1rem;">ERROR: API 数据获取失败
                     <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
                     <a style="color:darkgray; text-decoration:underline;" target="_blank" href="https://umami.api.xzgl.site/api/getEvents">检查</a></div>`
-                var resultALL = collectResult
-                var umamiDom = document.querySelector('#umamilist');
-                umamiDom.innerHTML = collectResult
-                var errDom = document.querySelector('#apierror');
                 errDom.innerHTML = result
             });
             
@@ -922,12 +893,10 @@
             <i class="site-tag iconfont icon-tag icon-lg mr-1"></i>
             常用链接
         </h4>
-        <div id="apierror"></div>
+        <div id="apierror"><div style="margin: 0 0 0 3rem;font-weight: bold;">Loading...</div></div>
     </div>
         
-    <div class="row" id="umamilist">
-        <div style="margin: 0 0 21px 3rem;">Loading...</div>
-    </div>
+    <div class="row" id="umamilist"></div>
 
     
         
