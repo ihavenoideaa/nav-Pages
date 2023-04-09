@@ -142,5 +142,65 @@ function switchNightMode(){
     const startTime = new Date("2023-03-01T11:17:00Z").getTime();
     updateSiteTime(startTime, "sitetime");
   </script>
+
+<!--统计超链接点击次数-->
+<script> 
+  const umamiLinks = document.querySelectorAll('a.umami'); 
+  umamiLinks.forEach(link => { link.addEventListener('click', () => {
+  const title = link.getAttribute('data-link-name');
+  const url = link.getAttribute('href'); 
+  umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') }); }); }); 
+ </script>
+
+
+    <!-- 点击次数 
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch('https://umami.api.xzgl.site/api/getEvents')
+            .then(response => response.json())
+            .then(resdata => {
+                var data=resdata	
+                var result = ''
+                for(var i=0;i < 5;i++){ 
+                    let linktitle = data[i].x.split('-')[0];
+                    let linkurl   = data[i].x.split('-')[1];
+                    var iconlink="https://api.iowen.cn/favicon/"+linkurl.split('//')[1]+".png";
+                    result+=`
+                        <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                            <div class="url-body default">
+                                <a href="${ linkurl }" target="_blank" data-id="" data-url="${ linkurl }" class="card no-c mb-4 umami" data-link-name="${ linktitle }" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ $link.description }}">
+                                    <div class="card-body">
+                                        <div class="url-content d-flex align-items-center">
+                                            <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                                {{ if $.Site.Params.defaultLogo }}
+                                                    <img class="lazy" src="${ iconlink }" data-src="${ iconlink }" onerror="javascript:this.src='{{ $.Site.Params.defaultLogo }}'" alt="${ linktitle }">
+                                                {{ else }}
+                                                    <img class="lazy" src="${ iconlink }" data-src="${ iconlink }" onerror="javascript:this.src='${ iconlink }'" alt="${ linktitle }">
+                                                {{ end }}
+                                            </div>
+                                                <div class="url-info flex-fill">
+                                                    <div class="text-sm overflowClip_1">
+                                                        <strong>${ linktitle }</strong>
+                                                    </div>
+                                                    <p class="overflowClip_1 m-0 text-muted text-xs">连接访问次数: ${ data[i].y}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="${ linkurl }" class="togo text-center text-muted is-views umami" data-link-name="${ linktitle }" data-id="689" data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+                                    <i class="iconfont icon-goto"></i>
+                                </a>
+                            </div>
+                        </div>	
+                    `
+                }
+                var umamiDom = document.querySelector('#umamilist');
+                umamiDom.innerHTML = result	
+            })
+         });
+    </script>
+    <!-- 点击次数 end-->
+
+ 
 </body>
 </html>
