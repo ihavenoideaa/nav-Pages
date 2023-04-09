@@ -57,18 +57,14 @@
                                                         <strong>{{ .title }}</strong>
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </a>
+                                            </div></div></div></a>
                                 <a href="{{ .url }}" class="togo text-center text-muted is-views umamii" data-link-name="{{ .title }}" data-id="689" data-placement="right" title="直达" rel="nofollow">
                                     <i class="iconfont icon-goto"result></i>
-                                </a>
-                            </div>
-                        </div>	
-                    {{ end }}
-                {{ end }}`
-
+                                </a></div> </div>	
+                    {{ end }}{{ end }}`
+            var umamiDom = document.querySelector('#umamilist');
+            var errDom = document.querySelector('#apierror');
+            umamiDom.innerHTML = collectResult 
             // api 数据处理
             fetch('https://umami.api.xzgl.site/api/getEvents')
             .then(response => response.json())
@@ -108,11 +104,10 @@
                         </div>	
                     `
                 }
-                var umamiDom = document.querySelector('#umamilist');
                 var resultALL = result+collectResult
                 umamiDom.innerHTML = resultALL
-
-                                // 使用 Promise 等待所有链接都生成完成后再初始化 umami 分析工具代码
+                errDom.innerHTML=''
+                // 使用 Promise 等待所有链接都生成完成后再初始化 umami 分析工具代码
                 Promise.all(Array.from(document.querySelectorAll('a.umamii')).map(link => {
                     return new Promise((resolve, reject) => {
                         link.addEventListener('click', () => {
@@ -135,10 +130,6 @@
                 var result = `<div style="color:darkgray; margin-left: 1rem;">ERROR: API 数据获取失败
                     <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
                     <a style="color:darkgray; text-decoration:underline;" target="_blank" href="https://umami.api.xzgl.site/api/getEvents">检查</a></div>`
-                var resultALL = collectResult
-                var umamiDom = document.querySelector('#umamilist');
-                umamiDom.innerHTML = collectResult
-                var errDom = document.querySelector('#apierror');
                 errDom.innerHTML = result
             });
             

@@ -8,12 +8,10 @@
             <i class="site-tag iconfont icon-tag icon-lg mr-1"></i>
             常用链接
         </h4>
-        <div id="apierror"></div>
+        <div id="apierror"><div style="margin: 0 0 0 3rem;font-weight: bold;">Loading...</div></div>
     </div>
         <!--获取内容列表-->
-    <div class="row" id="umamilist">
-        <div style="margin: 0 0 21px 3rem;">Loading...</div>
-    </div>
+    <div class="row" id="umamilist"></div>
 
     {{ range .Site.Data.webstack }}
         {{ if .list }}
