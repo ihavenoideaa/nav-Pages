@@ -1,4 +1,4 @@
-name: Docs Deploy Hugo # 任君喜欢
+name: Leisure Deploy Hugo # 任君喜欢
 
 on:
   push:
