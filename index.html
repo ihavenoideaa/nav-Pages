@@ -34,7 +34,80 @@
      
     
     <script async defer data-website-id="f366bda0-02fb-444e-87b5-a95e432acdcc" src="https://umami.status.xzgljiang.com/umami.js"></script>
+     
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            fetch('https://umami.api.xzgl.site/api/getEvents')
+            .then(response => response.json())
+            .then(resdata => {
+                var data=resdata
+                var result = ''
+                for(var i=0;i < 10;i++){ 
+                    let linktitle = data[i].x.split('-')[0];
+                    let linkurl   = data[i].x.split('-')[1];
+                    var iconlink="https://api.iowen.cn/favicon/"+linkurl.split('//')[1]+".png";
+                    result+=`
+                        <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+                            <div class="url-body default">
+                                <a href="${ linkurl }" target="_blank" data-id="" data-url="${ linkurl }" class="card no-c mb-4 umamii" data-link-name="${ linktitle }">
+                                    <div class="card-body">
+                                        <div class="url-content d-flex align-items-center">
+                                            <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                                                
+                                                    <img class="lazy" src="${ iconlink }" data-src="${ iconlink }" onerror="javascript:this.src='assets\/images\/default_logo.png'" alt="${ linktitle }">
+                                                
+                                            </div>
+                                                <div class="url-info flex-fill">
+                                                    <div class="text-sm overflowClip_1">
+                                                        <strong>${ linktitle }</strong>
+                                                    </div>
+                                                    <p class="overflowClip_1 m-0 text-muted text-xs">访问次数: ${ data[i].y}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="${ linkurl }" class="togo text-center text-muted is-views umamii" data-link-name="${ linktitle }" data-id="689" data-placement="right" title="直达" rel="nofollow">
+                                    <i class="iconfont icon-goto"></i>
+                                </a>
+                            </div>
+                        </div>	
+                    `
+                }
+                var umamiDom = document.querySelector('#umamilist');
+                umamiDom.innerHTML = result
 
+                                
+                Promise.all(Array.from(document.querySelectorAll('a.umamii')).map(link => {
+                    return new Promise((resolve, reject) => {
+                        link.addEventListener('click', () => {
+                            const title = link.getAttribute('data-link-name');
+                            const url = link.getAttribute('href');
+                            
+                            umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') });
+                        });
+
+                        resolve();
+                    });
+                })).then(() => {
+                    
+                    
+                });
+            })
+            .catch(error => {
+                console.error('API 数据读取失败', error);
+                
+                var result = `<div style="color:darkgray; margin: -21px 0 21px 3rem;">
+                    ERROR: API 数据获取失败
+                    <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
+                    <a style="color:darkgray; text-decoration:underline;" href="https://umami.api.xzgl.site/api/getEvents">检查</a>
+                    </div>`
+                var umamiDom = document.querySelector('#umamilist');
+                umamiDom.innerHTML = result
+            });
+            
+        });
+    </script>
+    
 </head>
 
 
@@ -718,7 +791,7 @@
     </div>
         
     <div class="row" id="umamilist">
-        loading...
+        <div style="margin: 0 0 21px 3rem;">Loading...</div>
     </div>
 
     
@@ -5065,324 +5138,6 @@
             
         
     
-    
-    aaa
-    
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-             
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-             
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                 
-             
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-             
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-             
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-            
-                
-                    
-                
-                    
-                 
-             
-             
-    
-        
-            
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                
-                    
-                 
-             
-             
-     
-     
     <h4 class="text-gray text-lg mb-4">
         <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
     </h4>
@@ -5729,13 +5484,13 @@ function switchNightMode(){
 
 
 <script> 
-  const umamiLinks = document.querySelectorAll('a.umami'); 
-  umamiLinks.forEach(link => { link.addEventListener('click', () => {
-  const title = link.getAttribute('data-link-name');
-  const url = link.getAttribute('href'); 
-  umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') }); }); }); 
- </script>
- 
+    document.addEventListener("DOMContentLoaded", () => {
+    const umamiLinks = document.querySelectorAll('a.umami'); 
+    umamiLinks.forEach(link => { link.addEventListener('click', () => {
+    const title = link.getAttribute('data-link-name');
+    const url = link.getAttribute('href'); 
+    umami.trackEvent(`${title}-${url}`, { value: link.getAttribute('link-click') }); }); });});
+</script>
 </body>
 </html>
 
