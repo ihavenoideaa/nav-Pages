@@ -145,7 +145,7 @@
             var errDom = document.querySelector('#apierror');
             umamiDom.innerHTML = collectResult 
             
-            fetch('https://umami.api.xzgl.site/apigetEvents')
+            fetch('https://umami.api.xzgl.site/api/getEvents')
             .then(response => response.json())
             .then(resdata => {
                 var data=resdata
