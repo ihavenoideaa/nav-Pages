@@ -145,7 +145,7 @@
             var errDom = document.querySelector('#apierror');
             
             
-            fetch('http://u-d.api.xzgl.site/getEvents')
+            fetch('https://u-d.api.xzgl.site/getEvents')
             .then(response => response.json())
             .then(resdata => {
                 var data=resdata
@@ -205,7 +205,7 @@
                 
                 var result = `<div style="color:darkgray; margin-left: 1rem;">ERROR: API 数据获取失败
                     <a style="color:darkgray; text-decoration:underline;" href="#" onclick="location.reload()">刷新</a>
-                    <a style="color:darkgray; text-decoration:underline;" target="_blank" href="https://umami.api.xzgl.site/api/getEvents">检查</a></div>`
+                    <a style="color:darkgray; text-decoration:underline;" target="_blank" href="https://u-d.api.xzgl.site/getEvents">检查</a></div>`
                 errDom.innerHTML = result
             });
         });
