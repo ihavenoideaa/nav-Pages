@@ -42,7 +42,7 @@
                     {{ range first $.Site.Params.collectCount .Site.Data.collect }}
                     <div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
                             <div class="url-body default">
-                                <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4 umami" data-link-name="{{ .title }}">
+                                <a href="{{ .url }}" target="_blank" data-id="" data-url="{{ .url }}" class="card no-c mb-4 umamii" data-link-name="{{ .title }}">
                                     <div class="card-body">
                                         <div class="url-content d-flex align-items-center">
                                             <div class="url-img mr-2 d-flex align-items-center justify-content-center">
@@ -58,15 +58,15 @@
                                                     </div>
                                                     <p class="overflowClip_1 m-0 text-muted text-xs">💙</p>
                                             </div></div></div></a>
-                                <a href="{{ .url }}" class="togo text-center text-muted is-views umami" data-link-name="{{ .title }}" data-id="689" data-placement="right" title="直达" rel="nofollow">
-                                    <i class="iconfont icon-goto"result></i>
+                                <a href="{{ .url }}" class="togo text-center text-muted is-views umamii" data-link-name="{{ .title }}" data-id="689" data-placement="right" title="直达" rel="nofollow">
+                                    <i class="iconfont icon-goto"></i>
                                 </a></div> </div>	
                     {{ end }}{{ end }}`
             var umamiDom = document.querySelector('#umamilist');
             var errDom = document.querySelector('#apierror');
-            umamiDom.innerHTML = collectResult 
             // api 数据处理
-            fetch('https://umami.api.xzgl.site/api/getEvents')
+            //fetch('https://umami.api.xzgl.site/api/getEvents')
+            fetch('http://38.60.33.16:3001/getEvents')
             .then(response => response.json())
             .then(resdata => {
                 var data=resdata
@@ -98,11 +98,10 @@
                                     </div>
                                 </a>
                                 <a href="${ linkurl }" class="togo text-center text-muted is-views umamii" data-link-name="${ linktitle }" data-id="689" data-placement="right" title="直达" rel="nofollow">
-                                    <i class="iconfont icon-goto"result></i>
+                                    <i class="iconfont icon-goto"></i>
                                 </a>
                             </div>
-                        </div>	
-                    `
+                        </div>`
                 }
                 var resultALL = result+collectResult
                 umamiDom.innerHTML = resultALL
@@ -132,7 +131,6 @@
                     <a style="color:darkgray; text-decoration:underline;" target="_blank" href="https://umami.api.xzgl.site/api/getEvents">检查</a></div>`
                 errDom.innerHTML = result
             });
-            
         });
     </script>
     <!-- 点击次数排行 end-->

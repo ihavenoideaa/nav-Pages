@@ -1,6 +1,6 @@
 ---
 
-- taxonomy: 常用导航 💙
+- taxonomy: 常用导航
   icon: far fa-star
 
 - taxonomy: 网址导航
@@ -411,7 +411,7 @@
         - title: 在线工具箱
           logo: https://api.iowen.cn/favicon/tool.lu.png
           url: https://tool.lu/
-          description: 图片转latex、日期计算、html/css/js处理、进制转换、crontab、ascii画、摩斯密码等等
+          description: html/css/js处理、图片转latex、日期计算、进制转换、crontab、ascii画、摩斯密码等等
         - title: PDF24 Tools
           logo: https://api.iowen.cn/favicon/tools.pdf24.org/zh.png
           url: https://tools.pdf24.org/zh/
