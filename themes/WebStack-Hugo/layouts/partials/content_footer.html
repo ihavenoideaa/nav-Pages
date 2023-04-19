@@ -26,7 +26,8 @@
             </div>
             <div class="footer-inner">
 			
-                <div class="footer-text">{{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}
+                <div class="footer-text">
+                    {{ replace $.Site.Params.footer.copyright "{year}" now.Year | markdownify }}
                     <span class="run-time" title="那么是从何时开始的呢"><i style="font-size:0.8rem;margin-right:2px;" class="far fa-clock"></i><span id="sitetime"></span></span>
                 </div>
             </div>
