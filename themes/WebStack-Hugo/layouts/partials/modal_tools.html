@@ -1,0 +1,77 @@
+<div class="modal fade tools-modal" id="tools-modal">
+    <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header" style="padding: 1rem 1rem 0 1.5rem">
+                <h5  id="tool-title" class="modal-title">工具箱</h5>
+                <a id="FullBtn" class="close fullBtn" href="" target="_blank"><i style="font-size:1.2rem" class="fas fa-expand"></i></a>
+                <button type="button" id="ReturnBtn" class="returnBtn close"><span>↩</span></button>
+                <button type="button" class="closeBtn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>			</div>
+            <div class="modal-body" id="tool-body">
+              <button class="toolBtn" data-tool="ascii">ASCII 码对照表</button>
+              <button class="toolBtn" data-tool="ctool">Ctool 程序开发常用工具</button>
+              <button class="toolBtn" data-tool="symbol">特殊符号</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+const toolTitle = document.querySelector("#tool-title");
+const toolBody = document.querySelector("#tool-body");
+const fullButton = document.querySelector("#FullBtn");
+const returnButton = document.querySelector("#ReturnBtn");
+
+function showTool(tool) {
+  let title, url;
+  switch (tool) {
+    case "ascii":
+      title = "ASCII 码对照表";
+      url = "./res/tools/ascii.html";
+      break;
+    case "ctool":
+      title = "Ctool 程序开发常用工具";
+      url = "./res/ctool/tool.html";
+      break;
+    case "symbol":
+      title = "特殊符号";
+      url = "./res/tools/symbol.html";
+      break;
+    default:
+      console.error(`Unknown tool: ${tool}`);
+      return;
+  }
+  
+  toolTitle.textContent = title;
+  toolBody.innerHTML = `<iframe src="${url}" style="width: 100%; height: 600px; border: none;"></iframe>`;
+  fullButton.setAttribute("href", url);
+  fullButton.style.display = "block";
+  returnButton.style.display = "block";
+}
+
+function hideTool() {
+  toolTitle.textContent = "工具箱";
+  toolBody.innerHTML = `
+    <button class="toolBtn" data-tool="ascii">ASCII 码对照表</button>
+    <button class="toolBtn" data-tool="ctool">Ctool 程序开发常用工具</button>
+    <button class="toolBtn" data-tool="symbol">特殊符号</button>
+    `;
+  fullButton.style.display = "none";
+  returnButton.style.display = "none";
+}
+
+function handleToolClick(event) {
+  if (event.target.classList.contains("toolBtn")) {
+    const tool = event.target.dataset.tool;
+    showTool(tool);
+  }
+}
+
+function handleReturnClick() {
+  hideTool();
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  document.body.addEventListener("click", handleToolClick);
+  returnButton.addEventListener("click", handleReturnClick);
+});
+</script>
