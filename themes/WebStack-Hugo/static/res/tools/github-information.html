@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="referrer" content="no-referrer">
+  <title>Get Data from API</title>
+  <style>
+    body{margin:0;padding:0}header{background-color:#333;color:#fff;padding:20px;text-align:center}main{max-width:800px;margin:0 auto;padding:20px}label{display:block;margin-bottom:10px}input[type=text]{width:100%;padding:10px;font-size:16px;border:1px solid #ccc;border-radius:4px;box-sizing:border-box}button{background-color:#4caf50;color:#fff;padding:12px 20px;border:none;border-radius:4px;cursor:pointer;margin-top:10px;font-size:1rem}button:hover{background-color:#45a049}.results{background-color:#f2f2f2;padding:1rem;border-radius:4px;margin-top:1rem}.results strong{display:inline-block;min-width:7rem;text-align:right}img{max-width:100%;margin:1rem 0 0 0}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>获取 Github 仓库数据</h1>
+  </header>
+  <main>
+    <label for="github-url">Github 仓库网址：</label>
+    <input type="text" id="github-url" placeholder="https://github.com/username/repository-name">
+    <button onclick="getData()">Get Data</button>
+    <div class="results" id="repoInfoList">
+		<p><strong>Full Name:	</strong></p>
+		<p><strong>Owner:		</strong></p>
+		<p><strong>Stars:		</strong></p>
+		<p><strong>仓库创建于:	</strong></p>
+		<p><strong>仓库更新于:	</strong></p>
+		<p><strong>仓库大小:</strong></p>
+		<p><strong>Stars History:</strong></p>
+    </div>
+  </main>
+  <script>
+    function getData() {
+      const githubUrl = document.getElementById('github-url').value;
+	  const githubRepo = githubUrl.split('/github.com/')[1]  
+      fetch(`https://api.github.com/repos/${githubRepo}`)
+        .then(response => response.json())
+        .then(data => {
+			const { full_name, owner: { login, html_url }, created_at, updated_at, size, stargazers_count } = data;
+			// 转换成北京时间
+			const createdtime = new Date(created_at);
+			const updatetime = new Date(updated_at);
+			const createbeijing = createdtime.toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
+			const updatebeijing = updatetime.toLocaleString('zh-CN', { timeZone: 'Asia/Shanghai' });
+
+			const InfoList = document.querySelector('#repoInfoList');
+			var result =` 
+			<p><strong>Full Name:   </strong> <span></span><a href="${githubUrl}" target="_blank">${full_name}</a></p>
+			<p><strong>Owner:		</strong> <span></span><a href="${html_url}" target="_blank">${login}</a></p>
+			<p><strong>Stars:		</strong> <span></span>${stargazers_count}⭐</p>
+			<p><strong>仓库创建于:	 </strong> <span></span>${createbeijing}</p>
+			<p><strong>仓库更新于:	 </strong> <span></span>${updatebeijing}</p>
+			<p><strong>仓库大小:     </strong> <span></span>${size} bytes</p>
+			<p><strong>Stars History: </strong><span> <a href="https://star-history.com/#${githubRepo}&Date"> Visit star-history.com</a></span>
+			<img alt="图片加载失败" src="https://api.star-history.com/svg?repos=${githubRepo}&type=Date" onload="hideLoading()" onerror="hideLoading()">
+			<div style="margin-left:1.5rem" id="loading">图片加载中</div></p>
+      <p><a href="https://api.github.com/repos/${githubRepo}" target="_blank">更多信息</a></p>
+		  `
+          InfoList.innerHTML = result;  
+        })
+        .catch(error => console.error(error));
+    }
+	function hideLoading() {
+    document.getElementById("loading").style.display = "none";
+  }
+  </script>
+</body>
+</html>

@@ -10,6 +10,7 @@
               <button class="toolBtn" data-tool="ascii">ASCII 码对照表</button>
               <button class="toolBtn" data-tool="ctool">Ctool 程序开发常用工具</button>
               <button class="toolBtn" data-tool="symbol">特殊符号</button>
+              <button class="toolBtn" data-tool="githubInformation">Github 仓库信息查询</button>
             </div>
         </div>
     </div>
@@ -36,6 +37,10 @@ function showTool(tool) {
       title = "特殊符号";
       url = "./res/tools/symbol.html";
       break;
+    case "githubInformation":
+      title = "Github 仓库信息查询";
+      url = "./res/tools/github-information.html";
+      break;
     default:
       console.error(`Unknown tool: ${tool}`);
       return;
@@ -54,6 +59,7 @@ function hideTool() {
     <button class="toolBtn" data-tool="ascii">ASCII 码对照表</button>
     <button class="toolBtn" data-tool="ctool">Ctool 程序开发常用工具</button>
     <button class="toolBtn" data-tool="symbol">特殊符号</button>
+    <button class="toolBtn" data-tool="githubInformation">Github 仓库信息查询</button>
     `;
   fullButton.style.display = "none";
   returnButton.style.display = "none";
