@@ -508,7 +508,15 @@
         - title: SteamDB
           logo: https://api.iowen.cn/favicon/steamdb.info.png
           url: https://steamdb.info/
-          description: Steam上所有内容的数据库   
+          description: Steam上所有内容的数据库 
+        - title: Cravatar
+          logo: https://api.iowen.cn/favicon/cravatar.cn.png
+          url: https://cravatar.cn/
+          description: China Recognized Avatar
+        - title: Gravatar 🪜
+          logo: https://api.iowen.cn/favicon/en.gravatar.com.png
+          url: https://en.gravatar.com/
+          description: Globally Recognized Avatar
         - title: 下载链接
           logo: xiazai.svg
           url: ./resource

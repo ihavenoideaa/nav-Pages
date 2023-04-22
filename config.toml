@@ -1,6 +1,6 @@
 baseURL               = "https://navi.xzgljiang.com/"
 languageCode          = "zh-CN"
-title                 = "JiAngの导航站"
+title                 = "XZGL 个人导航站"
 theme                 = "WebStack-Hugo"
 preserveTaxonomyNames = true
 disablePathToLower    = true
