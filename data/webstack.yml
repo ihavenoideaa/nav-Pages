@@ -160,11 +160,15 @@
         - title: ProcessOn
           logo: https://api.iowen.cn/favicon/www.processon.com.png
           url: https://www.processon.com/diagraming
-          description: 
+          description: ProcessOn在线作图
         - title: DrawIO.com
           logo: https://api.iowen.cn/favicon/www.drawio.com.png
           url: https://www.drawio.com/
-          description: 
+          description: 在线作图
+        - title: HOPPSCOTCH
+          logo: https://api.iowen.cn/favicon/hoppscotch.io.png
+          url: https://hoppscotch.io/
+          description: 在线接口测试
     - term: AI Products 🤖
       links:
         - title: DALL·E 2 🪜
