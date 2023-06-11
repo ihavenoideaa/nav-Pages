@@ -516,18 +516,14 @@
   list: 
     - term: 博客收藏 🎈 
       links:
-        - title: 我不是咕咕鸽
-          url: https://blog.laoda.de/
-          logo: https://api.iowen.cn/favicon/laoda.de.png
-          description: VPS折腾不完全记录
-        - title: 思有云-IOIOX
-          url: https://www.ioiox.com/
-          logo: https://api.iowen.cn/favicon/ioiox.com.png
-          description: 以不折腾为目标的折腾，才是折腾的最高境界！
         - title: 木木木木木
           url: https://immmmm.com/
           logo: https://api.iowen.cn/favicon/immmmm.com.png
-          description: 大木老师的博客        
+          description: 大木老师的博客
+        - title: 积薪 - 依然相信文字的力量
+          url: https://firewood.news/
+          logo: https://api.iowen.cn/favicon/firewood.news.png
+          description: 优秀独立博客收录
         - title: Elizen
           url: https://elizen.me/
           logo: 
@@ -543,4 +539,12 @@
         - title: 韩宇ing
           url: https://hanyu.cool/
           logo: https://api.iowen.cn/favicon/hanyu.cool/.png
-          description: 从这里开始，和自己聊聊       
+          description: 从这里开始，和自己聊聊 
+        - title: 我不是咕咕鸽
+          url: https://blog.laoda.de/
+          logo: https://api.iowen.cn/favicon/laoda.de.png
+          description: VPS折腾不完全记录
+        - title: 思有云-IOIOX
+          url: https://www.ioiox.com/
+          logo: https://api.iowen.cn/favicon/ioiox.com.png
+          description: 以不折腾为目标的折腾，才是折腾的最高境界！      
