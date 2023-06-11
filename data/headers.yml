@@ -2,9 +2,9 @@
   icon: fa fa-home
   link: "https://www.xzgljiang.com/"
 
-- item: 博客
-  icon: fab fa-blogger-b
-  link: https://blog.xzgljiang.com/
+- item: 
+  icon: fas fa-star
+  link: https://www.xzgljiang.com/memos/
 
 - item: AList
   icon: fas fa-table-list
@@ -14,8 +14,6 @@
   icon: fa fa-cat 
   link: ""
   list:
-    - name: の杂物间
-      url: https://www.xzgljiang.com/memos
     - name: 收库123
       url: https://shouku123.com/xzgl
     - name: h5ai
