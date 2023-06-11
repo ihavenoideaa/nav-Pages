@@ -6,16 +6,14 @@
   icon: fab fa-blogger-b
   link: https://blog.xzgljiang.com/
 
-- item: Linux命令搜索
-  icon: fab fa-linux
-  link: https://linux.xzgl.site/ 
+- item: 杂物间
+  icon: fas fa-star
+  link: https://www.xzgljiang.com/memos/ 
   
 - item: 其他
   icon: fa fa-cat 
   link: ""
   list:
-    - name: の杂物间
-      url: https://www.xzgljiang.com/memos
     - name: 收库123
       url: https://shouku123.com/xzgl
     - name: h5ai
