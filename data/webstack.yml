@@ -92,3 +92,19 @@
           logo: bookcat.png
           url: https://github.com/halo-sigs/awesome-halo
           description: Halo 插件主题发布仓库
+        - title: Awesome Github 🪜
+          logo: https://api.iowen.cn/favicon/github.com/sindresorhus/awesome.png
+          url: https://github.com/sindresorhus/awesome
+          description: Awesome资源大全系列,汇总优秀工具资源的列表	  
+        - title: Awesome-CPP 🪜
+          logo: https://api.iowen.cn/favicon/github.com.png
+          url: https://github.com/fffaraz/awesome-cpp
+          description: C++（或 C）框架、库、资源和闪亮事物的精选列表。
+        - title: Awesome-SelfHosted 🪜
+          logo: https://api.iowen.cn/favicon/github.com.png
+          url: https://github.com/awesome-selfhosted/awesome-selfhosted
+          description: 可托管在服务器上的免费软件网络服务和Web应用程序列表
+        - title: Awesome-chatgpt-api 🪜
+          logo: https://api.iowen.cn/favicon/github.com.png
+          url: https://github.com/reorx/awesome-chatgpt-api
+          description: 基于 ChatGPT API，且允许配置自己的 API key 的工具和应用的精选列表。
