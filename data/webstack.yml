@@ -151,30 +151,20 @@
           logo: https://api.iowen.cn/favicon/vercel.com.png
           url: https://vercel.com/
           description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
-    - term:  知识整理 📊
+    - term:  工作效率 📊
       links:
         - title: 腾讯文档
           logo: https://api.iowen.cn/favicon/docs.qq.com.png
           url: https://docs.qq.com/
           description: 在线文档，支持多人在线协作编辑
-    - term: Awesome系列 🎆
-      links:
-        - title: Awesome Github 🪜
-          logo: https://api.iowen.cn/favicon/github.com/sindresorhus/awesome.png
-          url: https://github.com/sindresorhus/awesome
-          description: Awesome资源大全系列,汇总优秀工具资源的列表	  
-        - title: Awesome-CPP 🪜
-          logo: https://api.iowen.cn/favicon/github.com.png
-          url: https://github.com/fffaraz/awesome-cpp
-          description: C++（或 C）框架、库、资源和闪亮事物的精选列表。
-        - title: Awesome-SelfHosted 🪜
-          logo: https://api.iowen.cn/favicon/github.com.png
-          url: https://github.com/awesome-selfhosted/awesome-selfhosted
-          description: 可托管在服务器上的免费软件网络服务和Web应用程序列表
-        - title: Awesome-chatgpt-api 🪜
-          logo: https://api.iowen.cn/favicon/github.com.png
-          url: https://github.com/reorx/awesome-chatgpt-api
-          description: 基于 ChatGPT API，且允许配置自己的 API key 的工具和应用的精选列表。
+        - title: ProcessOn
+          logo: https://api.iowen.cn/favicon/www.processon.com.png
+          url: https://www.processon.com/diagraming
+          description: 
+        - title: DrawIO.com
+          logo: https://api.iowen.cn/favicon/www.drawio.com.png
+          url: https://www.drawio.com/
+          description: 
     - term: AI Products 🤖
       links:
         - title: DALL·E 2 🪜
