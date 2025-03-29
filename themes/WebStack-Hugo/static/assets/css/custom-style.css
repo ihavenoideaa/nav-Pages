@@ -40,7 +40,7 @@ body,html{font-size:14px;}
 .navbar-collapse ul li.menu-item-has-children:after{content:'\e612';}
 
 /*搜索部分背景样式*/
-.header-big.css-color{background-size:unset;background-position:unset;animation:unset;}
+.header-big.css-color{background-size:cover;background-position:unset;animation:unset;}
 
 /*搜索热词样式调整*/
 .search-hot-text{
