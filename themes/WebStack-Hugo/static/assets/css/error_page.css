@@ -3,7 +3,7 @@
   box-sizing: 0;
   margin: 0;
   padding: 0;
-  cursor: url("../images/cursors-edge.png"), auto;
+  cursor: url("../images/404/cursors-edge.png"), auto;
 }
 
 body {
@@ -43,7 +43,7 @@ div > * {
 }
 
 aside {
-  background-image: url("../images/right-edges.png");
+  background-image: url("../images/404/right-edges.png");
   background-position: top right;
   background-repeat: no-repeat;
   background-size: 25px 100%;
@@ -81,7 +81,7 @@ main button {
           transform: skew(-5deg);
   -webkit-transition: all 0.1s ease;
   transition: all 0.1s ease;
-  cursor: url("../images/cursors-eye.png"), auto;
+  cursor: url("../images/404/cursors-eye.png"), auto;
 }
 main button:hover {
   background-color: #c5dc50;
