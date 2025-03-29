@@ -1,0 +1,44 @@
+<div class="url-card col-6  col-sm-6 col-md-4 col-xl-5a col-xxl-6a">
+    <div class="url-body default">
+        {{ if .link.qrcode }}
+            {{ if findRE "http.*?(.|\n)*?" .link.qrcode }}
+                <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true" 
+                title="<img src='{{ .link.qrcode }}' width='128'>">
+            {{ else }}
+                <a href="javascript:" target="" class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-html="true"
+                title="<img src='{{ .site.Params.logosPath }}/{{ .link.qrcode }}' width='128'>">
+            {{ end }}
+        {{ else }}
+            <a href="{{ .link.url }}" target="_blank" data-id="" data-url="{{ .link.url }}"
+            class="card no-c mb-4" data-toggle="tooltip" data-placement="bottom" data-original-title="{{ .link.description }}">
+        {{ end }}
+        <div class="card-body">
+            <div class="url-content d-flex align-items-center">
+                <div class="url-img mr-2 d-flex align-items-center justify-content-center">
+                    {{ $logo := "" }}
+                    {{ if and .site.Params.logoUseApi (eq .link.logo nil) }}
+                        {{ $cleanUrl := replaceRE "^https?://" "" .link.url }}
+                        {{ $logo = printf "%s%s" .site.Params.linkLogoApi $cleanUrl }}
+                    {{ else if findRE "http.*?(.|\n)*?" .link.logo }}
+                        {{ $logo = .link.logo }}
+                    {{ else }}
+                        {{ $logo = printf "%s/%s" .site.Params.logosPath .link.logo }}
+                    {{ end }}
+                    <img class="lazy" src="{{ $logo }}" data-src="{{ $logo }}"
+                        onerror="javascript:this.src='{{ .site.Params.defaultLogo }}'" alt="{{ .link.title }}">
+                </div>
+                <div class="url-info flex-fill">
+                    <div class="text-sm overflowClip_1">
+                        <strong>{{ .link.title }}</strong>
+                    </div>
+                    <p class="overflowClip_1 m-0 text-muted text-xs">{{ .link.description }}</p>
+                </div>
+            </div>
+        </div>
+        </a>
+        <a href="{{ .link.url }}" class="togo text-center text-muted is-views" data-id="689"
+        data-toggle="tooltip" data-placement="right" title="直达" rel="nofollow">
+        <i class="iconfont icon-goto"></i>
+        </a>
+    </div>
+</div>

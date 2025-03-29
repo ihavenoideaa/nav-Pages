@@ -20,6 +20,8 @@ publishDir            = "public"					# 站点静态文件保存目录
     expandSidebar = true					                            # 默认展开左侧边导航栏
     logosPath     = "assets/images/logos"			                    # 网站每个导航地址logo存放地址
     defaultLogo   = "assets/images/default_logo.png"		            # logo图片资源不存在或者错误时, 默认显示的logo; 该参数如为空,将会一直加载对应的logo,直至成功
+    linkLogoApi   = "https://api.mmp.cc/api/favicon?type=jpg&url="
+    logoUseApi    = true
     nightMode     = false					                            # 默认站点为深色(夜间)模式
     yiyan         = true                         		                # 默认启用一言服务
     fancybox      = true                                                # 使用 Fancybox 实现图片灯箱/放大功能
@@ -36,12 +38,13 @@ publishDir            = "public"					# 站点静态文件保存目录
 
 [params.images]
     favicon           = "assets/images/cat.png"
-    searchImageL      = "assets/images/bg-light.jpg"		            # 搜索部分浅色背景图
-    searchImageD      = "assets/images/bg-dark.jpg"		                # 搜索部分深色背景图
+    searchImageL      = "assets/images/bg-light.webp"		            # 搜索部分浅色背景图
+    searchImageD      = "assets/images/bg-dark.webp"		            # 搜索部分深色背景图
     logoExpandLight   = "assets/images/bt8-expand.png"
     logoExpandDark    = "assets/images/bt8-expand.png"
     logoCollapseLight = "assets/images/cat.png"
     logoCollapseDark  = "assets/images/cat.png"
+
     
 [markup.goldmark.renderer]
     unsafe = true
