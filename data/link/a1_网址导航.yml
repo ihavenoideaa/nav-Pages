@@ -1,0 +1,147 @@
+- taxonomy: 常用
+  icon: far fa-star
+  links: 
+    - title: 语雀
+      logo: 语雀.webp
+      url: https://www.yuque.com/
+      description: 专业的云端知识库。
+    - title: 哔哩哔哩 (゜-゜)つロ 干杯~
+      logo: 哔哩哔哩.png
+      url: https://www.bilibili.com/
+      description: Bilibili 视频弹幕网站。
+
+- taxonomy: 网址导航
+  icon: far fa-bookmark
+  list:
+    - term: 搜索 🔍
+      links:
+        - title: Bing
+          logo: bing.png
+          url: https://bing.com/
+          description: 必应搜索 
+        - title: Baidu
+          logo: baidu.ico
+          url: https://baidu.com	
+          description: 百度搜索 
+        - title: Google
+          logo: google.png
+          url: https://www.google.com/	
+          description: 谷歌搜索
+        - title: DuckDuckGo
+          logo: duckduckgo.png
+          url: https://duckduckgo.com/	
+          description: 开启不受网络追踪的搜索之旅，隐私保护搜索引擎
+        - title: WolframAlpha
+          logo: www.wolframalpha.ico
+          url: https://www.wolframalpha.com/
+          description: 世界上即时专家知识和计算的权威资源（sin x作图）
+    - term: 社交 💬
+      links:
+        - title: Instagram
+          logo: www.instagram.png
+          url: https://www.instagram.com/
+          description: 拉近您与自己深爱的这个世界之间的距离 
+        - title: 百度贴吧
+          logo: 百度贴吧.jpg
+          url: https://tieba.baidu.com/
+          description:  全球领先的中文社区
+        - title: Twitter X
+          logo: twitter.png
+          url: https://twitter.com/
+          description: 新鲜事一网打尽
+        - title: 豆瓣
+          logo: www.douban.ico
+          url: https://www.douban.com/
+          description:  豆瓣读书、观影探索和记录
+    - term: 在线翻译 🔠
+      links:
+        - title: 有道翻译 
+          logo: fanyi.youdao.png
+          url: https://fanyi.youdao.com/
+          description: 有道在线翻译
+        - title: 百度翻译
+          logo: fanyi.baidu.ico
+          url: https://fanyi.baidu.com/
+          description: 百度在线翻译
+        - title: 谷歌翻译
+          logo: 谷歌翻译.jpg
+          url: https://translate.google.cn/
+          description: 谷歌在线翻译
+    - term:  邮箱	📬
+      links:
+        - title: 网易163邮箱
+          logo: mail.163.ico
+          url: https://mail.163.com/
+          description: 网易163免费邮箱
+        - title: Outlook邮箱
+          logo: outlook.ico
+          url: https://outlook.live.com/
+          description: 来自 Microsoft 的免费个人电子邮件
+        - title: Gmail
+          logo: gmail.png
+          url: https://mail.google.com/
+          description: 一个帐户,畅享 Google所有服务
+        - title: QQ邮箱
+          logo: QQ邮箱.png
+          url: https://mail.qq.com/
+          description: QQ邮箱，常联系！
+        - title: 126邮箱
+          logo: www.126.ico
+          url: https://www.126.com/
+          description: 你的专业电子邮局
+    - term:  百科 🔣
+      links:
+        - title: WIKIPEDIA
+          logo: www.wikipedia.png
+          url: https://www.wikipedia.org/
+          description: 维基百科
+        - title: 百度百科
+          logo: baike.baidu.ico
+          url: https://baike.baidu.com/
+          description: 中文百科
+        - title: 萌百科
+          logo: zh.moegirl.org.ico
+          url: https://zh.moegirl.org.cn/Mainpage
+          description: 二次元的百科
+    - term: 云服务 ☁️
+      links:
+        - title: 阿里云
+          logo: 阿里云.jpg
+          url: https://www.aliyun.com/
+          description: 上云就上阿里云。
+        - title: 腾讯云
+          logo: 腾讯云.webp
+          url: https://cloud.tencent.com/
+          description: 产业智变，云启未来。
+        - title: 华为云
+          logo: www.huaweicloud.ico
+          url: https://www.huaweicloud.com/
+          description: 提供云计算服务+智能，见未来-华为云。
+        - title: 百度智能云
+          logo: cloud.baidu.ico
+          url: https://cloud.baidu.com/
+          description: 即可开始大模型旅程
+        - title: Cloudflare
+          logo: www.cloudflare.ico
+          url: https://www.cloudflare.com/zh-cn/
+          description: Cloudflare 是一个全球网络，旨在让您连接到互联网的一切都安全、私密、快速和可靠。
+        - title: 七牛云
+          logo: www.qiniu.ico
+          url: https://www.qiniu.com/
+          description: 一站式中立音视频云（免费10G空间）
+        - title: 又拍云
+          logo: www.upyun.png
+          url: https://www.upyun.com/
+          description: 场景化CDN，提供云存储、云处理、云安全
+        - title: 搬瓦工
+          logo: 
+          url: https://bandwagonhost.com/
+          description: 搬瓦工vps
+        - title: 天翼云
+          logo: www.ctyun.png
+          url: https://www.ctyun.cn/h5/auth/
+          description: 中国电信天翼云。
+        - title: Vultr
+          logo: www.vultr.png
+          url: https://www.vultr.com/
+          description: 只适合海外业务，机房遍布全球        

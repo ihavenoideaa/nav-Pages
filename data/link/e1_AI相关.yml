@@ -1,0 +1,20 @@
+
+- taxonomy: AI
+  icon: fas fa-robot
+  list:
+    - term: AI产品 🤖
+      links:
+        - title: DeepSeek
+          logo: www.deepseek.png
+          url: https://chat.deepseek.com/
+          description: 探索未至之境
+
+        - title: 豆包
+          logo: www.doubao.png
+          url: https://www.doubao.com/chat/
+          description: 
+          
+        - title: DALL·E 2
+          logo: openai.png
+          url: https://openai.com/product/dall-e-2
+          description: DALL·E 2 是一个人工智能系统，可以根据自然语言的描述创建逼真的图像和艺术作品。

@@ -1,5 +1,6 @@
 <div id="content" class="content-site customize-site">
-    {{ range .Site.Data.webstack }}
+    {{ range $data := .Site.Data.link }}
+    {{ range $data }}
         {{ if .list }}
             {{ range .list }}
 	    <!--正文网址导航--》
@@ -41,8 +42,8 @@
             <br />
             <!--END {{ .taxonomy }} -->
         {{ end }}
-    {{ end }}                        
-
+    {{ end }}
+    {{ end }}
     <h4 class="text-gray text-lg mb-4">
         <i class="iconfont icon-book-mark-line icon-lg mr-2" id="friendlink"></i>友情链接
     </h4>

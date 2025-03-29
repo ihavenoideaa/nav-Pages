@@ -1,14 +1,14 @@
 - item: 主页
   icon: fa fa-home
-  link: "https://www.xzgljiang.com/"
+  link: "https://www.reverier16.com/"
 
 - item: 博客
   icon: fab fa-blogger-b
-  link: https://blog.xzgljiang.com/
+  link: https://blog.reverier16.com/
 
 - item: 杂物间
   icon: fas fa-star
-  link: https://www.xzgljiang.com/memos/ 
+  link: https://memos.reverier16.com/memos/ 
   
 - item: 其他
   icon: fa fa-cat 
@@ -16,7 +16,3 @@
   list:
     - name: 收库123
       url: https://shouku123.com/xzgl
-    - name: h5ai
-      url: https://file.xzgl.site/
-    - name: 工作站
-      url: https://work.xzgljiang.com/	

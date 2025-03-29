@@ -1,0 +1,152 @@
+- taxonomy: 在线工具
+  icon: fas fa-tools fa-lg
+  list: 
+    - term: 文件处理 💾
+      links:
+        - title: Ezgif.com
+          logo: ezgif.png
+          url: https://ezgif.com/
+          description: Ezgif.com 是一个简单的在线 GIF 制作工具和用于基本动画 GIF 编辑的工具集。	
+        - title: Convertio文件转换器
+          logo: convertio.png
+          url: https://convertio.co/zh/
+          description: 文件格式转换：视频、图片 
+        - title: CloudConvert
+          logo: cloudconvert.png
+          url: https://cloudconvert.com/
+          description: CloudConvert是一个在线文件转换器。我们支持几乎所有音频、视频、文档、电子书、档案、图像、电子表格和演示文稿格式。要开始，请使用下面的按钮并从您的计算机中选择要转换的文件。		  
+        - title: XAudioPro
+          logo: xaudiopro.ico
+          url: https://www.xaudiopro.com/easyedit/
+          description: 音频转码、音频合并、音频剪辑
+        - title: Online Audio Converter
+          logo: online-audio-converter.png
+          url: https://online-audio-converter.com/	
+          description: 视频音频提取
+        - title: ACONVERT.COM
+          logo: www.aconvert.ico
+          url: https://www.aconvert.com/cn/
+          description: 在线转换各类PDF，文档，电子书，图像，图标，视频，音频和压缩文件(<40M) 
+        - title: 在线工具箱
+          logo: tool.png
+          url: https://tool.lu/
+          description: html/css/js处理、图片转latex、日期计算、进制转换、crontab、ascii画、摩斯密码等等
+        - title: PDF24 Tools
+          logo: tools.pdf24.png
+          url: https://tools.pdf24.org/zh/
+          description: 免费且易于使用的在线PDF工具
+        - title: ALL TO ALL
+          logo: www.alltoall.jfif
+          url: https://www.alltoall.net/
+          description: PDF转Word、logo转矢量、自动去背景、压缩格式转换、不常见图片格式转换、表格格式转换
+    - term: 图片工具 🏙️
+      links:
+        - title: Favicon.im
+          logo: favicon.png
+          url: https://favicon.im/
+          description: 立即获取并显示任何网站的网站图标
+        - title: TinyPNG
+          logo: tinypng.png
+          url: https://tinypng.com/
+          description: WebP、PNG和JPEG压缩
+        - title: docsmall
+          logo: docsmall.png
+          url: https://docsmall.com/
+          description: 免费的在线图片与 PDF 处理工具
+
+        - title: Photopea
+          logo: www.photopea.png
+          url: https://www.photopea.com/
+          description: Oline Photo Editor 在线PS
+        - title: 稿定设计
+          logo: www.uupoop.ico
+          url: https://www.uupoop.com/#/
+          description: 在线PS精简版/专业版（需登录）
+        - title: 改图神器/在线PS
+          logo: www.logosc.svg
+          url: https://www.logosc.cn/online-ps
+          description: 在线PS精简版，一键抠图、去水印（需登录，次数少）
+        - title: Ezgif.com
+          logo: ezgif (1).png
+          url: https://ezgif.com/
+          description: GIF制作、视频裁剪	
+        - title: I💙IMAGE
+          logo: www.iloveimg.png
+          url: https://www.iloveimg.com/convert-to-jpg/webp-to-jpg
+          description: Convert WEBP to JPG(Limit 30 images)
+        - title: 路过图床
+          logo: imgse.png
+          url: https://imgse.com/
+          description: 免费公共图床，全球CDN加速，支持外链，原图保存，批量上传，最大单张支持10 MB
+    - term:  生活类 🧭
+      links:
+        - title: Windy
+          logo: www.windy.png
+          url: https://www.windy.com/zh/
+          description: 世界地图天气预报和风向地图
+    - term: 其他工具 🔧
+      links:
+        - title: 虚拟手机号码
+          logo: sms-activate.png
+          url: https://sms-activate.org/cn/
+          description: 使用虚拟手机号码接收短信验证码
+        - title: 网页rgb颜色对照查询工具
+          logo: 
+          url: http://yanse.33231.com/
+          description: RGB颜色值与十六进制颜色码转换工具
+        - title: 临时邮箱
+          logo: yanse.33231.png
+          url: https://linshiyouxiang.net/
+          description: 提供临时邮箱，一次性邮箱，是完全匿名和安全的
+        - title: 虚拟信用卡
+          logo: 
+          url: https://cardgenerator.org/
+          description: 生成信用卡号码，包括在线注册和测试所需的所有详细信息。 
+        - title: 九蛙工具箱
+          logo: cardgenerator.png
+          url: https://www.jiuwa.net/
+          description: 特殊字体在线生成、寻呼机/油漆文字图片生成、随机网名生成
+        - title: 工具哇！
+          logo: toolwa.png
+          url: https://toolwa.com/
+          description: 娱乐、便民、站长、开发工具集
+
+- taxonomy: 功能拓展
+  icon: fas fa-puzzle-piece
+  list: 
+    - term:  插件 🐒
+      links:
+        - title: CrxDL.COM
+          logo: crxdl.ico
+          url: https://crxdl.com/
+          description: 下载Chrome扩展插件Crx离线安装包
+        - title: Tampermonkey
+          logo: www.tampermonkey.ico
+          url: https://www.tampermonkey.net/
+          description: 脚本管理器
+        - title: GreasyFork
+          logo: greasyfork.png
+          url: https://greasyfork.org/zh-CN
+          description: 提供用户脚本的网站
+        - title: 油小猴
+          logo: www.youxiaohou.png
+          url: https://www.youxiaohou.com/
+          description: 一个汇聚了各种黑科技的小站
+    - term: 其他🤿
+      links:
+        - title: SteamDB
+          logo: steamdb.ico
+          url: https://steamdb.info/
+          description: Steam上所有内容的数据库 
+        - title: Cravatar
+          logo: 
+          url: https://cravatar.cn/
+          description: China Recognized Avatar
+        - title: Gravatar
+          logo: cravatar.png
+          url: https://en.gravatar.com/
+          description: Globally Recognized Avatar
+        - title: 下载链接
+          logo: xiazai.svg
+          url: ./resource
+          description: 拓展资源下载链接收藏

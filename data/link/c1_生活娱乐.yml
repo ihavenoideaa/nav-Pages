@@ -1,0 +1,81 @@
+---
+
+
+- taxonomy: 电影音乐
+  icon: fas fa-film fa-lg
+  list:
+    - term: 在线视频 🎦
+      links:
+        - title: 哔哩哔哩 (゜-゜)つロ 干杯~
+          logo: www.bilibili.ico
+          url: https://www.bilibili.com/
+          description: Bilibili 视频弹幕网站。
+        - title: 哔嘀影视
+          logo: ./
+          url: https://www.bdys01.com
+          description: 主要提供大量高清的影视在线播放和资源下载
+        - title: 低端影视
+          logo: ./
+          url: https://ddys.site/
+          description: 低端影视发布页
+        - title: Libvio影视
+          logo: 
+          url: https://libvio.app/
+          description: Libvio影视发布页
+        - title: Gimy剧迷
+          logo: ./
+          url: https://gimy.app/
+          description: 劇迷首選線上看電視劇與節目
+        - title: Youtube
+          logo: youtube.png
+          url: https://www.youtube.com/
+          description: 油管-全球最大的视频网站 
+    - term: 电影之外 🎬
+      links:
+        - title: 可小果英文站
+          logo: www.kexiaoguo.png
+          url: https://www.kexiaoguo.com/
+          description: 可小果美剧电影台词
+        - title: Box Office Mojo
+          logo: www.boxofficemojo.ico
+          url: https://www.boxofficemojo.com/chart/ww_top_lifetime_gross/?area=XWW
+          description:	电影票房排行榜
+        - title: 烂番茄
+          logo: www.rottentomatoes.ico
+          url: https://www.rottentomatoes.com/
+          description:	美国知名的影视评论网站 
+    - term: 动漫 🎏
+      links:
+        - title: AGE动漫
+          logo: www.agedm.ico
+          url: https://www.agedm.org/
+          description:	在线动漫观看
+    - term: 音乐资源 🎵
+      links:
+        - title: 网易云音乐
+          logo: music.163.ico
+          url: https://music.163.com/
+          description: 音乐的力量
+        - title: QQ音乐
+          logo: y.qq.ico
+          url: https://y.qq.com/
+          description: 听我想听
+        - title: Spotify
+          logo: open.spotify.ico
+          url: https://open.spotify.com/
+        - title: MyFreeMP3
+          logo: tool.liumingye.jfif
+          url: https://tool.liumingye.cn/music/#/
+          description: 音乐在线听、下载（版权受限）
+        - title: 音乐直链搜索
+          logo: music.liuzhijin.png
+          url: https://music.liuzhijin.cn/
+          description:	特制多站合一音乐搜索解决方案 
+        - title: 音乐解锁
+          logo: yinyuejiesuo.svg
+          url: https://tools.inari.site/musiculk/
+          description:	移除已购音乐的加密保护 
+
+
+
+    

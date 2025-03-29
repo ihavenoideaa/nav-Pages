@@ -1,0 +1,101 @@
+- taxonomy: 资源获取
+  icon: fas fa-cloud-download-alt
+  list:
+    - term: 分享云盘 💾
+      links:
+        - title: 蓝凑云盘
+          logo: pc.woozooo.ico
+          url: https://pc.woozooo.com/account.php?action=login&ref=/mydisk.php
+          description: 	为用户而变革，越简单越好，越快越好 ！
+        - title: 百度网盘
+          logo: pan.baidu.ico
+          url: http://pan.baidu.com/
+          description: https://pan.baidu.com/.
+        - title: 阿里云盘
+          logo: www.aliyundrive.ico
+          url: https://www.aliyundrive.com/
+          description: 阿里云盘，你的数字世界。
+        - title: 天翼云盘
+          logo: cloud.189.ico
+          url: https://cloud.189.cn/
+          description: 家庭云|网盘|文件备份|资源分享。
+        - title: 谷歌云盘
+          logo: drive.google.png
+          url: https://drive.google.com/drive/my-drive
+          description: 个人云存储和文件共享平台
+        - title: MEGA云盘
+          logo: mega.ico
+          url: https://mega.nz/#fm/X1EnRYII
+          description: MEGA将云存储、文件和文件夹共享、聊天、会议等功能整合到一处
+        - title: OneDrive
+          logo: onedrive.ico
+          url: https://onedrive.live.com/
+          description: Microsoft的云存储服务
+        - title: 坚果云
+          logo: www.jianguoyun.png
+          usrl: https://www.jianguoyun.com/
+          description: 坚果云官网。
+    - term: 图片模型 🛤️️️
+      links:
+        - title: Pexels 
+          logo: www.pexels.png
+          url: https://www.pexels.com/zh-cn/
+          description: 才华横溢的摄影作者在这里免费分享最精彩的素材图片和视频
+        - title: Wallhaven
+          logo: wallhaven.ico
+          url: https://wallhaven.cc/
+          description:	最好的壁纸分享平台
+        - title: Pixiv
+          logo: www.pixiv.png
+          url: https://www.pixiv.net/
+          description: 以插图、漫画和小说、艺术为中心的社交网络服务里的虚拟社区网站 
+        - title: Unsplash
+          logo: unsplash.png
+          url: https://unsplash.com/
+          description:	免费无版权的摄影作品、图片
+        - title: 图虫网
+          logo: tuchong.ico
+          url: https://tuchong.com/
+          description:	优质摄影师交流社区，超过2000万摄影爱好者在此学习交流
+        - title: Deviantart 🪜
+          logo: www.deviantart.ico
+          url: https://www.deviantart.com/
+          description:	艺术画作、3D模型、插画分享 
+        - title: Cool Backgrounds
+          logo: coolbackgrounds.png
+          url: https://coolbackgrounds.io/
+          description: 生成引人注目的、色彩丰富的背景图像的工具
+
+    - term: 影视资源 🎦
+      links:  
+        - title: 布谷4K电影世界
+          logo: www.bugutv.jfif
+          url: https://www.bugutv.net/
+          description: 免费分享最新4K电影、4K美剧(部分VIP)
+        - title: 桔子蓝光网
+          logo: www.juzibd.png
+          url: https://www.juzibd.com/
+          description: 4K UHD蓝光原盘(VIP)
+    
+    - term: 图标符号 👽
+      links:
+        - title: Iconfont
+          logo: www.iconfont.svg
+          url: http://www.iconfont.cn/
+          description: 阿里巴巴矢量图标库。
+        - title: Yesicon
+          logo: yesicon.svg
+          url: https://yesicon.app/
+          description: （svg 图标库）精选全球高品质、开源、免费的矢量图标库
+        - title: Font Awesome Free
+          logo: fontawesome.ico
+          url: https://fontawesome.com/search?o=r&m=free
+          description: Font Awesome图标代码获取  
+        - title: Teamspeak Icons
+          logo: tsicons.ico
+          url: https://tsicons.com/
+          description: teamspeak3的图标资源	
+        - title: 颜文字大全
+          logo: www.hehuan.png
+          url: http://www.hehuan.co/
+          description: 颜文字分享

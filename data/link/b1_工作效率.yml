@@ -1,0 +1,66 @@
+- taxonomy: 工作效率
+  icon: fas fa-laptop-code	
+  list:
+    - term: 笔记📘
+      links:
+        - title: 语雀
+          logo: 语雀.webp
+          url: https://www.yuque.com/
+          description: 专业的云端知识库。
+
+        - title: 腾讯文档
+          logo: docs.qq.ico
+          url: https://docs.qq.com/
+          description: 在线文档，支持多人在线协作编辑
+
+    - term: DevOps 🧩
+      links:
+        - title: GitHub
+          logo: github.svg
+          url: https://github.com/
+          description: GitHub 开源社区。
+
+        - title: Docker Hub
+          logo: hub.docker (1).png
+          url: https://hub.docker.com/
+          description: Docker镜像分享
+
+        - title: Gitee
+          logo: gitee.ico
+          url: https://gitee.com/
+          description: Gitee是开源中国社区推出的基于Git的代码托管服务
+
+        - title: CODING
+          logo: xzgl.coding.ico
+          url: https://xzgl.coding.net/
+          description: 腾讯云旗下一站式 DevOps 研发管理平台
+
+        - title: CodePen
+          logo: codepen.ico
+          url: https://codepen.io/pen/
+          description: CodePen是面向前端设计人员和开发人员的社交开发环境
+
+        - title: Vercel
+          logo: vercel.ico
+          url: https://vercel.com/
+          description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
+    
+    - term:  工作效率 📊
+      links:
+        - title: ProcessOn
+          logo: www.processon.ico
+          url: https://www.processon.com/diagraming
+          description: ProcessOn在线作图
+
+        - title: DrawIO.com
+          logo: www.drawio.ico
+          url: https://www.drawio.com/
+          description: 在线作图
+
+        - title: HOPPSCOTCH
+          logo: hoppscotch.ico
+          url: https://hoppscotch.io/
+          description: 在线接口测试
+
+
+

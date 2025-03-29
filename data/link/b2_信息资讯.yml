@@ -1,0 +1,10 @@
+
+- taxonomy: 信息咨询 🆕
+  icon: fas fa-rss
+  list:
+    - term: 知识技术论坛
+      links:
+        - title: 少数派
+          logo: sspai.ico
+          url: https://sspai.com/
+          description: 
