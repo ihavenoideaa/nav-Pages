@@ -1,21 +1,20 @@
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/jquery.ui.touch-punch.min-0.2.2.js' id='jqueryui-touch-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/clipboard.min-5.6.2.js' id='clipboard-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/tooltip-extend.js' id='iplaycode-nav-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/jquery.ui.touch-punch.min-0.2.2.js" }}' id='jqueryui-touch-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/clipboard.min-5.6.2.js" }}' id='clipboard-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/tooltip-extend.js" }}' id='iplaycode-nav-js'></script>
 <script type='text/javascript' id='popper-js-extra'>
 /* <![CDATA[ */
-//var theme = {"ajaxurl":"https:\/\/nav.baidu.com\/wp-admin\/admin-ajax.php","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"1","icourl":"https:\/\/api.badi.cn\/favicon\/","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
 var theme = {"ajaxurl":"","addico":"https:\/\/nav.baidu.cn\/wp-content\/themes\/onenav\/images\/add.png","order":"asc","formpostion":"top","defaultclass":"io-grey-mode","isCustomize":"1","icourl":"","icopng":".png","urlformat":"1","customizemax":"10","newWindow":"0","lazyload":"1","minNav":"1","loading":"1","hotWords":"baidu","classColumns":" col-sm-6 col-md-4 col-xl-5a col-xxl-6a ","apikey":"TWpBeU1UVTNOekk1TWpVMEIvZ1M2bFVIQllUMmxsV1dZelkxQTVPVzB3UW04eldGQmxhM3BNWW14bVNtWk4="};
 /* ]]> */
 </script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/popper.min.js' id='popper-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/bootstrap.min-4.3.1.js' id='bootstrap-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/theia-sticky-sidebar-1.5.0.js' id='sidebar-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/lazyload.min-12.4.0.js' id='lazyload-js'></script>
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/fancybox.min-3.5.7.js' id='lightbox-js-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/popper.min.js" }}' id='popper-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/bootstrap.min-4.3.1.js" }}' id='bootstrap-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/theia-sticky-sidebar-1.5.0.js" }}' id='sidebar-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/lazyload.min-12.4.0.js" }}' id='lazyload-js'></script>
+
 {{ if $.Site.Params.expandSidebar }}
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/app-anim.js' id='appanim-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/app-anim.js" }}' id='appanim-js'></script>
 {{ else }}
-<script type='text/javascript' src='{{ $.Site.Params.siteurl }}/assets/js/app-mini.js' id='appmini-js'></script>
+<script type='text/javascript' src='{{ absURL "assets/js/app-mini.js" }}' id='appmini-js'></script>
 {{ end }}
 <script type="text/javascript">
     $(document).ready(function(){
@@ -100,7 +99,7 @@ $("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImage
 function switchNightMode(){
     var night = document.cookie.replace(/(?:(?:^|.*;\s*)night\s*\=\s*([^;]*).*$)|^.*$/, "$1") || '0';
     if(night == '0'){
-	$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageD }})");
+	$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})");
         document.body.classList.remove('io-grey-mode');
         document.body.classList.add('io-black-mode');
         document.cookie = "night=1;path=/"
@@ -109,7 +108,7 @@ function switchNightMode(){
         $(".mode-ico").removeClass("icon-night");
         $(".mode-ico").addClass("icon-light");
     }else{
-	$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageL }})")
+	$("#search-bg").css("background-image", "url({{ $.Site.Params.images.searchImageD }})")
         document.body.classList.remove('io-black-mode');
         document.body.classList.add('io-grey-mode');
         document.cookie = "night=0;path=/"
@@ -123,7 +122,7 @@ function switchNightMode(){
 <!--网站已经运行了多久-->
 <script>
     function getTimeDiff(startTime) {
-      const now = new Date().getTime();
+      const now = Date.now();
       const diff = now - startTime;
 
       const days = Math.floor(diff / (24 * 60 * 60 * 1000));
@@ -135,22 +134,14 @@ function switchNightMode(){
 
     function updateSiteTime(startTime, elementId) {
       const timeDiff = getTimeDiff(startTime);
-      document.getElementById(elementId).innerHTML = `网站已运行 ${timeDiff.days} 天 ${timeDiff.hours} 小时 ${timeDiff.minutes} 分钟 ${timeDiff.seconds} 秒`;
-      window.requestAnimationFrame(() => updateSiteTime(startTime, elementId));
+      document.getElementById(elementId).textContent = `网站已运行 ${timeDiff.days} 天 ${timeDiff.hours} 小时 ${timeDiff.minutes} 分钟 ${timeDiff.seconds} 秒`;
     }
 
+    // 起始时间
     const startTime = new Date("2023-03-01T11:17:00Z").getTime();
     updateSiteTime(startTime, "sitetime");
+    // 每秒更新一次网站运行时间  
+    setInterval(() => updateSiteTime(startTime, "sitetime"), 1000);
   </script>
-
-<!--统计超链接点击次数-->
-<script> 
-    document.addEventListener("DOMContentLoaded", () => {
-    const umamiLinks = document.querySelectorAll('a.umami'); 
-    umamiLinks.forEach(link => { link.addEventListener('click', () => {
-    const title = link.getAttribute('data-link-name');
-    const url = link.getAttribute('href'); 
-    umami.trackEvent(`${title}*${url}`, { value: link.getAttribute('link-click') }); }); });});
-</script>
 </body>
 </html>

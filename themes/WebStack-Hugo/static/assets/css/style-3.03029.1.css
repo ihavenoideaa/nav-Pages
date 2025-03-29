@@ -12,6 +12,7 @@ body,html{height:100%;margin:0;padding:0;border:0}
 a{color:#282a2d;outline:0!important;text-decoration:none}
 a:hover{text-decoration:none;color:#f1404b}
 p{color:#1d232b;margin:0;white-space:normal;word-break:break-all} 
+
 /*--------------------------------------------------------------
 ## Basics style
 --------------------------------------------------------------*/
@@ -113,7 +114,7 @@ a>i.sidebar-more{transform:scale(.8)}
 .navbar-collapse li>ul{-webkit-transform:translateY(15px);transform:translateY(15px)}
 .navbar-collapse ul li ul{position:absolute;min-width:90px;opacity:0;overflow:hidden;visibility:hidden;background:#fff;border-radius:4px;box-shadow:0 5px 20px 0px rgba(0,0,0,.15);transition:.3s}
 .navbar-collapse ul li.focus>ul,.navbar-collapse ul li:hover>ul{opacity:1;z-index:1;overflow:visible;visibility:visible;-webkit-transform:translateY(0);transform:translateY(0)}
-.navbar-collapse ul li.menu-item-has-children:after{content:'\e616';font-family:"iconfont";position:absolute;top:14px;right:-2px;font-size:12px;-webkit-transform:scale(.6);transform:rotate(0deg) scale(.6);transition:transform .2s}
+.navbar-collapse ul li.menu-item-has-children:after{content:'';font-family:"iconfont";position:absolute;top:12px;right:-2px;font-size:12px;-webkit-transform:scale(.6);transform:rotate(0deg) scale(.6);transition:transform .2s}
 .navbar-collapse ul li.menu-item-has-children:hover:after{transform:rotate(45deg) scale(.6)}
 .navbar .navbar-nav li>a{font-size:14px;padding:10px 15px;display:block;transition:color .2s}
 .navbar .navbar-nav i{margin-right:2px!important}
@@ -1058,12 +1059,11 @@ input.nav-link:disabled,input.nav-link[readonly]{background-color:transparent;op
 /*--------------------------------------------------------------
 ## webkit scrollbar style
 --------------------------------------------------------------*/
-@media only screen and (min-device-width:768px){
-::-webkit-scrollbar-thumb{background-color:rgba(130,130,130,0.5);-webkit-border-radius:4px;border-radius:4px}
+/*@media only screen and (min-device-width:768px){
+::-webkit-scrollbar-thumb{background-color:rgba(130,130,130,.1);-webkit-border-radius:4px;border-radius:4px}
 ::-webkit-scrollbar-thumb:hover{background-color:#f1404b;-webkit-border-radius:4px;border-radius:4px}
 ::-webkit-scrollbar{width:5px;height:5px} 
 ::-webkit-scrollbar-thumb:active{background-color:#f1404b;-webkit-border-radius:4px;border-radius:4px}
 ::-webkit-scrollbar-corner{background:rgba(0,0,0,0);border-radius:0 0 8px 0}
 ::-webkit-scrollbar-button{background-color:rgba(0,0,0,0);height:2px;width:2px}
-}
-
+}*/
