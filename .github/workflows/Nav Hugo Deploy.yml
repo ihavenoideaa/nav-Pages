@@ -1,4 +1,4 @@
-name: Nav Deploy Hugo # 任君喜欢
+name: Nav Deploy Hugo
 
 on:
   push:
@@ -22,12 +22,15 @@ jobs:
       - name: Build 
         run: hugo --minify #构建hugo并压缩public
 
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v3
+      - name: rsync deployments
+        uses: burnett01/rsync-deployments@7.0.2
         with:
-          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }} # personal_token 这里新建一个 https://github.com/settings/tokens
-          PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
-          PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
-          keep_files: true    #保留现有文件
-          commit_message: ${{ github.event.head_commit.message }}
+          switches: -avzr --delete
+          path: public/
+          remote_path: ${{ secrets.DEPLOY_PATH }}
+          remote_host: ${{ secrets.DEPLOY_HOST }}
+          remote_port: ${{ secrets.DEPLOY_PORT }}
+          remote_user: ${{ secrets.DEPLOY_USER }}
+          remote_key: ${{ secrets.DEPLOY_KEY }}
+
   
