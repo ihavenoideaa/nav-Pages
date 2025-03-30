@@ -13,6 +13,11 @@
           url: https://docs.qq.com/
           description: 在线文档，支持多人在线协作编辑
 
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: DevOps 🧩
       links:
         - title: GitHub
@@ -21,9 +26,9 @@
           description: GitHub 开源社区。
 
         - title: Docker Hub
-          logo: hub.docker (1).png
+          logo: hub.docker.png
           url: https://hub.docker.com/
-          description: Docker镜像分享
+          description: Docker 镜像站
 
         - title: Gitee
           logo: gitee.ico
@@ -45,6 +50,11 @@
           url: https://vercel.com/
           description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
     
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term:  工作效率 📊
       links:
         - title: ProcessOn
@@ -62,5 +72,8 @@
           url: https://hoppscotch.io/
           description: 在线接口测试
 
-
+        - title: 
+          logo: 
+          url: 
+          description: 
 

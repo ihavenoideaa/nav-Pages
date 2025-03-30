@@ -39,6 +39,12 @@
           logo: www.alltoall.jfif
           url: https://www.alltoall.net/
           description: PDF转Word、logo转矢量、自动去背景、压缩格式转换、不常见图片格式转换、表格格式转换
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 图片工具 🏙️
       links:
         - title: Favicon.im
@@ -78,12 +84,24 @@
           logo: imgse.png
           url: https://imgse.com/
           description: 免费公共图床，全球CDN加速，支持外链，原图保存，批量上传，最大单张支持10 MB
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term:  生活类 🧭
       links:
         - title: Windy
           logo: www.windy.png
           url: https://www.windy.com/zh/
           description: 世界地图天气预报和风向地图
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 其他工具 🔧
       links:
         - title: 虚拟手机号码
@@ -111,6 +129,11 @@
           url: https://toolwa.com/
           description: 娱乐、便民、站长、开发工具集
 
+        - title: 
+          logo: 
+          url: 
+          description: 
+
 - taxonomy: 功能拓展
   icon: fas fa-puzzle-piece
   list: 
@@ -132,6 +155,12 @@
           logo: www.youxiaohou.png
           url: https://www.youxiaohou.com/
           description: 一个汇聚了各种黑科技的小站
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 其他🤿
       links:
         - title: SteamDB
@@ -150,3 +179,8 @@
           logo: xiazai.svg
           url: ./resource
           description: 拓展资源下载链接收藏
+
+        - title: 
+          logo: 
+          url: 
+          description: 

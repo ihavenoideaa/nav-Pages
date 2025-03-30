@@ -1,10 +1,53 @@
 
-- taxonomy: 信息咨询 🆕
+- taxonomy: 信息咨询
   icon: fas fa-rss
   list:
-    - term: 知识技术论坛
+    - term: 知识/技术/论坛
       links:
         - title: 少数派
           logo: sspai.ico
           url: https://sspai.com/
+          description: 高效工作品质生活
+          
+        - title: Reddit
+          logo: reddit.png
+          url: https://www.reddit.com/
+          description: The heart of the internet
+
+        - title: Stack Overflow
+          logo: stackoverflow.ico
+          url: https://stackoverflow.co/
+          description: Empowering the world to develop technology through collective knowledge.
+
+    - term: 体育
+      links:
+
+        - title: 赛车|F1
+          logo: sports.cctv.jfif
+          url: https://sports.cctv.com/racing/index.shtml
+          description: 体育_央视网(cctv.com)
+  
+        - title: NBA中国官网
+          logo: china.nba.ico
+          url: https://china.nba.cn/
+          description: NBA比赛数据/咨询
+
+        - title: 腾讯体育
+          logo: sports.qq.ico
+          url: https://sports.qq.com/
+          description: 腾讯体育|NBA|足球|网球|NFL
+
+        - title: 虎扑体育
+          logo: www.hupu.ico
+          url: https://www.hupu.com/
+          description: 专注于NBA赛程、NBA直播、NBA资讯、球员交易、足球、英超、电竞、LPL等全部篮球足球电竞赛事。
+
+        - title: 88看球
+          logo: www.88kanqiu.png
+          url: http://www.88kanqiu.me/match/1/live
+          description: NBA免費直播，線上看NBA比賽直播，88看球NBA直播，NBA賽程，錄像回放。
+
+        - title: 
+          logo: 
+          url: 
           description: 

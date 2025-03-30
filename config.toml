@@ -1,4 +1,4 @@
-baseURL               = "https://navi.xzgljiang.com/"
+baseURL               = "https://nav.reverier16.com/"
 languageCode          = "zh-CN"
 title                 = "个人导航站"
 theme                 = "WebStack-Hugo"

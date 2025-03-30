@@ -5,10 +5,21 @@
       logo: 语雀.webp
       url: https://www.yuque.com/
       description: 专业的云端知识库。
+    
+    - title: GitHub
+      logo: github.svg
+      url: https://github.com/
+      description: 
+
     - title: 哔哩哔哩 (゜-゜)つロ 干杯~
       logo: 哔哩哔哩.png
       url: https://www.bilibili.com/
       description: Bilibili 视频弹幕网站。
+    
+    - title: 
+      logo: 
+      url: 
+      description: 
 
 - taxonomy: 网址导航
   icon: far fa-bookmark
@@ -35,6 +46,12 @@
           logo: www.wolframalpha.ico
           url: https://www.wolframalpha.com/
           description: 世界上即时专家知识和计算的权威资源（sin x作图）
+        
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 社交 💬
       links:
         - title: Instagram
@@ -49,10 +66,12 @@
           logo: twitter.png
           url: https://twitter.com/
           description: 新鲜事一网打尽
-        - title: 豆瓣
-          logo: www.douban.ico
-          url: https://www.douban.com/
-          description:  豆瓣读书、观影探索和记录
+        
+        - title: Facebook
+          logo: facebook.png
+          url: https://www.facebook.com/
+          description: 联系你我，分享生活，尽在 Facebook
+
     - term: 在线翻译 🔠
       links:
         - title: 有道翻译 
@@ -67,6 +86,12 @@
           logo: 谷歌翻译.jpg
           url: https://translate.google.cn/
           description: 谷歌在线翻译
+        
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term:  邮箱	📬
       links:
         - title: 网易163邮箱
@@ -89,6 +114,12 @@
           logo: www.126.ico
           url: https://www.126.com/
           description: 你的专业电子邮局
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term:  百科 🔣
       links:
         - title: WIKIPEDIA
@@ -103,6 +134,12 @@
           logo: zh.moegirl.org.ico
           url: https://zh.moegirl.org.cn/Mainpage
           description: 二次元的百科
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 云服务 ☁️
       links:
         - title: 阿里云
@@ -144,4 +181,9 @@
         - title: Vultr
           logo: www.vultr.png
           url: https://www.vultr.com/
-          description: 只适合海外业务，机房遍布全球        
+          description: 只适合海外业务，机房遍布全球
+
+        - title: 
+          logo: 
+          url: 
+          description:      

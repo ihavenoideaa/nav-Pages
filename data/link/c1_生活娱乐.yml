@@ -10,28 +10,34 @@
           logo: www.bilibili.ico
           url: https://www.bilibili.com/
           description: Bilibili 视频弹幕网站。
-        - title: 哔嘀影视
-          logo: ./
-          url: https://www.bdys01.com
-          description: 主要提供大量高清的影视在线播放和资源下载
-        - title: 低端影视
-          logo: ./
-          url: https://ddys.site/
-          description: 低端影视发布页
-        - title: Libvio影视
-          logo: 
-          url: https://libvio.app/
-          description: Libvio影视发布页
-        - title: Gimy剧迷
-          logo: ./
-          url: https://gimy.app/
-          description: 劇迷首選線上看電視劇與節目
         - title: Youtube
           logo: youtube.png
           url: https://www.youtube.com/
-          description: 油管-全球最大的视频网站 
+          description: 油管-全球最大的视频网站
+        - title: 低端影视
+          logo: ddys.png
+          url: https://ddys.site/
+          description: 低端影视发布页
+        - title: Libvio影视
+          logo: libvio.ico
+          url: https://libvio.app/
+          description: Libvio影视发布页
+        - title: Gimy剧迷
+          logo: gimy.png
+          url: https://gimy.app/
+          description: 劇迷首選線上看電視劇與節目
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 电影之外 🎬
       links:
+        - title: 豆瓣
+          logo: www.douban.ico
+          url: https://www.douban.com/
+          description:  豆瓣读书、观影探索和记录
         - title: 可小果英文站
           logo: www.kexiaoguo.png
           url: https://www.kexiaoguo.com/
@@ -43,13 +49,25 @@
         - title: 烂番茄
           logo: www.rottentomatoes.ico
           url: https://www.rottentomatoes.com/
-          description:	美国知名的影视评论网站 
+          description:	美国知名的影视评论网站
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 动漫 🎏
       links:
         - title: AGE动漫
           logo: www.agedm.ico
           url: https://www.agedm.org/
           description:	在线动漫观看
+
+        - title: 
+          logo: 
+          url: 
+          description: 
+
     - term: 音乐资源 🎵
       links:
         - title: 网易云音乐
@@ -74,7 +92,13 @@
         - title: 音乐解锁
           logo: yinyuejiesuo.svg
           url: https://tools.inari.site/musiculk/
-          description:	移除已购音乐的加密保护 
+          description:	移除已购音乐的加密保护
+        
+        - title: 
+          logo: 
+          url: 
+          description: 
+
 
 
 
