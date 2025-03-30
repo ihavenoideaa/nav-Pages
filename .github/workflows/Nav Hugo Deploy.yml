@@ -9,20 +9,23 @@ jobs:
   build-deploy:
     runs-on: ubuntu-22.04
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Setup Hugo
-        uses: peaceiris/actions-hugo@v2
+      - uses: actions/checkout@v4
         with:
-          hugo-version: '0.110.0'
+          fetch-depth: 0
+          
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: '0.145.0'
+          extended: true   #hugo是扩展版
 
       - name: Build 
-        run: hugo
+        run: hugo --minify #构建hugo并压缩public
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
-          personal_token: ${{ secrets.personal_token }} # personal_token 这里新建一个 https://github.com/settings/tokens
+          PERSONAL_TOKEN: ${{ secrets.PERSONAL_TOKEN }} # personal_token 这里新建一个 https://github.com/settings/tokens
           PUBLISH_BRANCH: gh-pages  # 推送到当前 gh-pages 分支
           PUBLISH_DIR: ./public  # hugo 生成到 public 作为跟目录
           keep_files: true    #保留现有文件
