@@ -138,10 +138,17 @@ function switchNightMode(){
     }
 
     // 起始时间
-    const startTime = new Date("2023-03-01T11:17:00Z").getTime();
+    const startTime = new Date({{ .Site.Params.startTime }}).getTime();
     updateSiteTime(startTime, "sitetime");
     // 每秒更新一次网站运行时间  
     setInterval(() => updateSiteTime(startTime, "sitetime"), 1000);
   </script>
+
+ {{if .Site.Params.weather.token }}
+    <script>
+        const weatherToken = {{ .Site.Params.weather.token }};
+    </script>
+    <script type='text/javascript' src='{{ absURL "assets/reverie/js/main.js" }}' id='img-api-js'></script>
+ {{ end }}
 </body>
 </html>

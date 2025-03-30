@@ -23,3 +23,10 @@
           logo: 
           url: 
           description: 
+
+    - term: AI 工具 
+      links:
+        - title: Hugging Face
+          logo: huggingface.ico
+          url: https://huggingface.co/
+          description: The AI community building the future.

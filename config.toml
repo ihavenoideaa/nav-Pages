@@ -9,9 +9,10 @@ publishDir            = "public"					# 站点静态文件保存目录
 dataDir               = "data"                      # 指定Site.Data的文件加
 
 [params]
+    startTime      = "2023-03-01T11:17:00Z"                             # 网站搭建时间
     author        = "shenweiyan"
     description   = "Webstack-Hugo 网址导航 | Hugo 主题 BY Bio IT 爱好者"
-    upload        = "document"                                              # 左侧导航栏的"网站提交"
+    upload        = "document"                                          # 左侧导航栏的"网站提交"
     leisure       = "leisure"
     about         = "https://shumlab.com/cookbook/webstack-hugo"	    # 左侧导航栏的"关于导航"页面(./about)
     repository    = "https://github.com/shenweiyan/WebStack-Hugo"  
@@ -42,6 +43,8 @@ dataDir               = "data"                      # 指定Site.Data的文件�
     logoCollapseLight = "assets/images/cat.png"
     logoCollapseDark  = "assets/images/cat.png"
 
+[params.weather]
+    token = ""
     
 [markup.goldmark.renderer]
     unsafe = true

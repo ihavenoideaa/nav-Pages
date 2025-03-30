@@ -7,7 +7,7 @@
     language: "zh-Hans",
     unit: "c",
     theme: "auto",
-    token: "****",
+    token: weatherToken,
     hover: "disable",
     container: "tp-weather-widget"
 })
