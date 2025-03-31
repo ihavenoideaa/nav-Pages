@@ -1,0 +1,22 @@
+- taxonomy: 常用
+  icon: far fa-star
+  links: 
+    - title: 语雀
+      logo: 语雀.webp
+      url: https://www.yuque.com/
+      description: 专业的云端知识库。
+      
+    - title: GitHub
+      logo: github.svg
+      url: https://github.com/
+      description: 
+
+    - title: 哔哩哔哩 (゜-゜)つロ 干杯~
+      logo: 哔哩哔哩.png
+      url: https://www.bilibili.com/
+      description: Bilibili 视频弹幕网站。
+    
+    - title: 
+      logo: 
+      url: 
+      description: 
