@@ -47,7 +47,7 @@ dataDir               = "data"                      # 指定Site.Data的文件�
     token = "418d8a3b-6874-4439-ab39-c4fa49ca4a34"
 
 [params.umami]
-    umamiApi = "http://api.reverier16.com/umami"
+    umamiApi = "https://api.reverier16.com/umami"
     useClickRank = true                                                 # 启用点击排行
     
 [markup.goldmark.renderer]
