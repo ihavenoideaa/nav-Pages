@@ -1,4 +1,9 @@
 <div id="content" class="content-site customize-site">
+    
+    {{ if .Site.Params.umami.useClickRank }}
+        {{ partial "link_rank.html" . }}
+    {{ end }}
+    
     {{ range $data := .Site.Data.link }}
     {{ range $data }}
         {{ if .list }}
@@ -24,23 +29,18 @@
             {{ end }}
         {{ else }}
 	    <!--常用推荐-->
-            <!-- {{ .taxonomy }} -->
             <div class="d-flex flex-fill">
                 <h4 class="text-gray text-lg mb-4">
                     <i class="site-tag iconfont icon-tag icon-lg mr-1" id="{{ md5 .taxonomy }}"></i>
                     {{ .taxonomy }}
                 </h4>
-                <!--div class="flex-fill"></div>
-                <a class='btn-move text-xs' href='#'>more+</a-->
             </div>
-            <!--获取内容列表-->
             <div class="row">
                 {{ range .links }}
                     {{ partial "link_card" (dict "link" . "site" $.Site) }}
                 {{ end }}
             </div>
             <br />
-            <!--END {{ .taxonomy }} -->
         {{ end }}
     {{ end }}
     {{ end }}

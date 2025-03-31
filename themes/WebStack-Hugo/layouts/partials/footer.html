@@ -142,13 +142,36 @@ function switchNightMode(){
     updateSiteTime(startTime, "sitetime");
     // 每秒更新一次网站运行时间  
     setInterval(() => updateSiteTime(startTime, "sitetime"), 1000);
+
+    console.log("\n %c  16Reverieの主页  %c https://www.reverier16.com/ \n", "color: #ffffff; background: #4f94d8; padding:5px 0;", "background: #030307; padding:5px 0;");
   </script>
+
+  <script defer src="https://umami.reverier16.com/script.js" data-website-id="417dd433-f22c-4c8f-89f3-db77c8351e08"></script>
 
  {{if .Site.Params.weather.token }}
     <script>
         const weatherToken = {{ .Site.Params.weather.token }};
+        // 心知天气
+        (function(a,h,g,f,e,d,c,b){b=function(){d=h.createElement(g);c=h.getElementsByTagName(g)[0];d.src=e;d.charset="utf-8";d.async=1;c.parentNode.insertBefore(d,c)};a["SeniverseWeatherWidgetObject"]=f;a[f]||(a[f]=function(){(a[f].q=a[f].q||[]).push(arguments)});a[f].l=+new Date();if(a.attachEvent){a.attachEvent("onload",b)}else{a.addEventListener("load",b,false)}}(window,document,"script","SeniverseWeatherWidget","//cdn.sencdn.com/widget2/static/js/bundle.js?t="+parseInt((new Date().getTime() / 100000000).toString(),10)));
+        window.SeniverseWeatherWidget('show', {
+            flavor: "slim",
+            location: "WS0E9D8WN298",
+            geolocation: false,
+            language: "zh-Hans",
+            unit: "c",
+            theme: "auto",
+            token: weatherToken,
+            hover: "disable",
+            container: "tp-weather-widget"
+        })
     </script>
-    <script type='text/javascript' src='{{ absURL "assets/reverie/js/main.js" }}' id='img-api-js'></script>
  {{ end }}
+
+ {{if .Site.Params.umami.useClickRank }}
+    <script>
+        const umami_api = {{ .Site.Params.umami.umamiApi }};
+    </script>
+    <script type='text/javascript' src='{{ absURL "assets/reverie/js/umami.js" }}' id='img-api-js'></script>
+{{ end }}
 </body>
 </html>

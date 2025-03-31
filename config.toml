@@ -9,7 +9,7 @@ publishDir            = "public"					# 站点静态文件保存目录
 dataDir               = "data"                      # 指定Site.Data的文件加
 
 [params]
-    startTime      = "2023-03-01T11:17:00Z"                             # 网站搭建时间
+    startTime     = "2023-03-01T11:17:00Z"                              # 网站搭建时间
     author        = "shenweiyan"
     description   = "Webstack-Hugo 网址导航 | Hugo 主题 BY Bio IT 爱好者"
     upload        = "document"                                          # 左侧导航栏的"网站提交"
@@ -44,7 +44,11 @@ dataDir               = "data"                      # 指定Site.Data的文件�
     logoCollapseDark  = "assets/images/cat.png"
 
 [params.weather]
-    token = ""
+    token = "418d8a3b-6874-4439-ab39-c4fa49ca4a34"
+
+[params.umami]
+    umamiApi = "http://api.reverier16.com/umami"
+    useClickRank = true                                                 # 启用点击排行
     
 [markup.goldmark.renderer]
     unsafe = true
