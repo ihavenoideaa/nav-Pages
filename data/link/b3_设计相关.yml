@@ -1,0 +1,9 @@
+- taxonomy: 设计
+  icon: fas fa-laptop-code	
+  list:
+    - term: 笔记📘
+      links:
+        - title: Dribbble
+          logo: dribbble.svg
+          url: https://dribbble.com/
+          description: Discover the world’s top designers
