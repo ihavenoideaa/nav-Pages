@@ -3,10 +3,14 @@
   list:
     - term: 分享云盘 💾
       links:
-        - title: 蓝凑云盘
+        - title: 蓝奏云盘
           logo: pc.woozooo.ico
-          url: https://pc.woozooo.com/account.php?action=login&ref=/mydisk.php
+          url: https://pc.woozooo.com/account.php?action=login&ref=/mydisk.phphttps://www.ilanzou.com/
           description: 	为用户而变革，越简单越好，越快越好 ！
+        - title: 蓝奏云优享版
+          logo: www.ilanzou.ico
+          url: https://www.ilanzou.com/
+          description: 	蓝奏云优享版、极速分享、下载免登录、在线预览、无损存储、不限速
         - title: 百度网盘
           logo: pan.baidu.ico
           url: http://pan.baidu.com/

@@ -1,9 +1,13 @@
 - taxonomy: 设计
   icon: fas fa-laptop-code	
   list:
-    - term: 笔记📘
+    - term: 网页设计
       links:
         - title: Dribbble
           logo: dribbble.svg
           url: https://dribbble.com/
           description: Discover the world’s top designers
+        - title: One Page Love
+          logo: onepagelove.png
+          url: https://onepagelove.com/
+          description: One Page Website Inspiration and Templates
