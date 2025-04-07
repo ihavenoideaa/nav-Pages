@@ -18,7 +18,7 @@
           url: 
           description: 
 
-    - term: DevOps 🧩
+    - term: 常用平台 🧩
       links:
         - title: GitHub
           logo: github.svg
@@ -50,10 +50,10 @@
           url: https://vercel.com/
           description: Vercel提供静态站点、无服务器函数和混合应用程序的开发、部署和扩展服务。它支持流行的框架和工具，例如Next.js、React、Vue、Angular等等
     
-        - title: 
-          logo: 
-          url: 
-          description: 
+        - title: jsdelivr
+          logo: www.jsdelivr.ico
+          url: https://www.jsdelivr.com/
+          description: A free CDN for open source projects
 
     - term:  工作效率 📊
       links:

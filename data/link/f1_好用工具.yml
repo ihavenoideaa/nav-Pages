@@ -174,11 +174,11 @@
           url: https://steamdb.info/
           description: Steam上所有内容的数据库 
         - title: Cravatar
-          logo: 
+          logo: gravatar.png
           url: https://cravatar.cn/
           description: China Recognized Avatar
         - title: Gravatar
-          logo: cravatar.png
+          logo: gravatar.png
           url: https://en.gravatar.com/
           description: Globally Recognized Avatar
         - title: 下载链接
