@@ -19,6 +19,12 @@
           url: https://stackoverflow.co/
           description: Empowering the world to develop technology through collective knowledge.
 
+        - title: follow
+          logo: follow.ico
+          url: https://app.follow.is/
+          description: RSS tool, Follow everything in one place
+
+
     - term: 体育
       links:
 

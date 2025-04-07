@@ -14,7 +14,11 @@
         - title: CloudConvert
           logo: cloudconvert.png
           url: https://cloudconvert.com/
-          description: CloudConvert是一个在线文件转换器。我们支持几乎所有音频、视频、文档、电子书、档案、图像、电子表格和演示文稿格式。要开始，请使用下面的按钮并从您的计算机中选择要转换的文件。		  
+          description: CloudConvert是一个在线文件转换器。我们支持几乎所有音频、视频、文档、电子书、档案、图像、电子表格和演示文稿格式。要开始，请使用下面的按钮并从您的计算机中选择要转换的文件。	
+        - title: Free Convert
+          logo: www.freeconvert.ico
+          url: https://www.freeconvert.com/zh
+          description: 轻松在线将文件从一种格式转换为另一种格式。
         - title: XAudioPro
           logo: xaudiopro.ico
           url: https://www.xaudiopro.com/easyedit/
@@ -55,11 +59,14 @@
           logo: tinypng.png
           url: https://tinypng.com/
           description: WebP、PNG和JPEG压缩
+        - title: Handraw
+          logo: handraw.ico
+          url: https://handraw.top/
+          description: 手写效果白板工具
         - title: docsmall
           logo: docsmall.png
           url: https://docsmall.com/
           description: 免费的在线图片与 PDF 处理工具
-
         - title: Photopea
           logo: www.photopea.png
           url: https://www.photopea.com/
@@ -84,11 +91,10 @@
           logo: imgse.png
           url: https://imgse.com/
           description: 免费公共图床，全球CDN加速，支持外链，原图保存，批量上传，最大单张支持10 MB
-
-        - title: 
+        - title: optiPNG
           logo: 
-          url: 
-          description: 
+          url: https://optipng.sourceforge.net/
+          description: optiPNG is a PNG optimizer that recompresses image files to a smaller size
 
     - term:  生活类 🧭
       links:
