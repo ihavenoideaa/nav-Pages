@@ -95,6 +95,11 @@
           logo: 
           url: https://optipng.sourceforge.net/
           description: optiPNG is a PNG optimizer that recompresses image files to a smaller size
+        - title: 图片转Base64
+          logo: www.lddgo.png
+          url: https://www.lddgo.net/convert/imagebasesix
+          description: 图片转Base64
+        
 
     - term:  生活类 🧭
       links:

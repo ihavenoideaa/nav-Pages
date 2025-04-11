@@ -123,8 +123,11 @@
           logo: www.hehuan.png
           url: http://www.hehuan.co/
           description: 颜文字分享
-
-        - title: 
-          logo: 
-          url: 
-          description: 
+        - title: Simple Icon
+          logo: simpleicons.ico
+          url: https://simpleicons.org/
+          description: 流行品牌的 3282 个 SVG 图标
+        - title: Shields.io
+          logo: shields.ico
+          url: https://shields.io/badges
+          description: 简洁、一致且易读的徽章。
