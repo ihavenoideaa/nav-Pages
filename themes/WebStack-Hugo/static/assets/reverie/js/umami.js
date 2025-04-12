@@ -28,7 +28,7 @@ document.addEventListener("DOMContentLoaded", async () => {
                             <div class="text-sm overflowClip_1">
                                 <strong>${item.title}</strong>
                             </div>
-                            <p class="overflowClip_1 m-0 text-muted text-xs">${item.description}</p>
+                            <p class="overflowClip_1 m-0 text-muted text-xs">${item.description == null ? "" : item.description}</p>
                         </div>
                       </div>
                       <p style="color:#6c757d;font-size:10px;position:absolute;bottom:0.23rem;right:.825rem;">${item.count}</p>
