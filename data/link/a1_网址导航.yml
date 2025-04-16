@@ -160,7 +160,17 @@
           url: https://www.vultr.com/
           description: 只适合海外业务，机房遍布全球
 
+        - title: NameSilo
+          logo: www.namesilo.png
+          url: https://www.namesilo.com/
+          description: 国外最大的ICANN认证域名提供商之一，以物美价廉的优势积累了不错的口碑
+
+        - title: spaceship
+          logo: www.spaceship.png
+          url: https://www.spaceship.com/zh/
+          description: 提供域名、托管、电子邮件和网络工具的数字平台
+
         - title: 
           logo: 
           url: 
-          description:      
+          description: 

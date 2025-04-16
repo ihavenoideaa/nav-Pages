@@ -19,6 +19,11 @@
           url: https://openai.com/product/dall-e-2
           description: DALL·E 2 是一个人工智能系统，可以根据自然语言的描述创建逼真的图像和艺术作品。
         
+        - title: 千帆 ModelBuilder
+          logo: console.bce.baidu.ico
+          url: https://console.bce.baidu.com/qianfan/overview
+          description: 千帆 ModelBuilder 控制台
+        
         - title: 
           logo: 
           url: 

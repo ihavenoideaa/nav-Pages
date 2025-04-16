@@ -139,7 +139,11 @@
           logo: toolwa.png
           url: https://toolwa.com/
           description: 娱乐、便民、站长、开发工具集
-
+        - title: WakaTime
+          logo: wakatime.png
+          url: https://wakatime.com/
+          description: 统计开发时间的工具
+          
         - title: 
           logo: 
           url: 
