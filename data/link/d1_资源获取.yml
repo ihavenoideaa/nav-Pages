@@ -107,6 +107,10 @@
           logo: www.iconfont.svg
           url: http://www.iconfont.cn/
           description: 阿里巴巴矢量图标库。
+        - title: ICONS
+          logo: icons8.png
+          url: https://icons8.com/icons/set/photo-video
+          description: 扁平化图标库
         - title: Yesicon
           logo: yesicon.svg
           url: https://yesicon.app/
@@ -114,7 +118,11 @@
         - title: Font Awesome Free
           logo: fontawesome.ico
           url: https://fontawesome.com/search?o=r&m=free
-          description: Font Awesome图标代码获取  
+          description: Font Awesome图标代码获取
+        - title: macOSicons
+          logo: macosicons.ico
+          url: https://macosicons.com/#/
+          description: macOS 应用图标库
         - title: Teamspeak Icons
           logo: tsicons.ico
           url: https://tsicons.com/

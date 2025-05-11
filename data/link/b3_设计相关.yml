@@ -15,3 +15,7 @@
           logo: ohitokoto.ico
           url: https://hitokoto.cn/
           description: 不论在哪里，总有那么几个句子能穿透你的心。
+        - title: MD2Card
+          logo: md2card.png
+          url: https://md2card.com/zh
+          description: Markdown转知识卡片

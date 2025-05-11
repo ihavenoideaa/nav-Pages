@@ -24,6 +24,11 @@
           url: https://app.follow.is/
           description: RSS tool, Follow everything in one place
 
+        - title: 博客园
+          logo: www.cnblogs.png
+          url: https://www.cnblogs.com/
+          description: 开发者的网上家园
+
 
     - term: 体育
       links:
